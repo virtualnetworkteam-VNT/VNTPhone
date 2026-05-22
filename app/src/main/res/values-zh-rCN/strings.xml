@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_title">关于 baresip</string>
-    <string name="about_title_plus">关于 baresip+</string>
+    <string name="about_title">关于 vnt</string>
+    <string name="about_title_plus">关于 vnt+</string>
     <string name="account">账号</string>
     <string name="nickname">昵称</string>
     <string name="invalid_account_nickname">账号昵称“%1$s”无效</string>
     <string name="non_unique_account_nickname">昵称“%1$s”已存在</string>
-    <string name="account_nickname_help">昵称（如果有）用于在 baresip 应用中识别此账号。</string>
+    <string name="account_nickname_help">昵称（如果有）用于在 vnt 应用中识别此账号。</string>
     <string name="display_name">显示名称</string>
     <string name="display_name_help">名称（如果有）用于在出站请求中的 From URI。</string>
     <string name="invalid_display_name">显示名称“%1$s”无效</string>
@@ -14,7 +14,7 @@
     <string name="authentication_username_help">如果需要对 SIP 请求进行身份验证，则输入身份验证用户名。默认值是账号的用户名。</string>
     <string name="invalid_authentication_username">身份验证用户名“%1$s”无效</string>
     <string name="authentication_password">身份验证密码</string>
-    <string name="authentication_password_help">身份验证密码最多 64 个字符。如果提供了身份验证用户名，但未提供密码，则在启动 baresip 时会询问。</string>
+    <string name="authentication_password_help">身份验证密码最多 64 个字符。如果提供了身份验证用户名，但未提供密码，则在启动 vnt 时会询问。</string>
     <string name="invalid_authentication_password">身份验证密码“%1$s”无效</string>
     <string name="outbound_proxies">出站代理</string>
     <string name="outbound_proxies_help">当发送请求时，必须使用一个或两个代理的 SIP URI。如果指定两个，则 REGISTER 请求将同时发送给二者，其他请求则发送给最先响应的一方。如果没有指定出站代理，则根据被叫 URI 主机部分的 DNS NAPTR/SRV/A 记录查找发送请求。如果 SIP URI 的主机部分是 IPv6 地址，则该地址必须写在方括号 [] 内。\n示例：\n • sip:example.com:5061;transport=tls \n • sip:[2001:67c:223:777::10];transport=tcp \n • sip:192.168.43.50:443;transport=wss</string>
@@ -24,7 +24,7 @@
     <string name="register">注册</string>
     <string name="register_help">如果选中，则启用注册，并按照注册间隔指定的间隔发送 REGISTER 请求。</string>
     <string name="reg_int">注册间隔</string>
-    <string name="reg_int_help">告诉 baresip 发送 REGISTER 请求的频率（以秒为单位）。有效值在 60 到 3600 之间。</string>
+    <string name="reg_int_help">告诉 vnt 发送 REGISTER 请求的频率（以秒为单位）。有效值在 60 到 3600 之间。</string>
     <string name="invalid_reg_int">注册间隔“%1$s”无效</string>
     <string name="media_nat">媒体 NAT 穿越</string>
     <string name="media_nat_help">选择媒体 NAT 穿越协议（如果有）。可能的选择是 STUN（ NAT 会话穿越实用程序，RFC 5389）和 ICE（交互式连接建立，RFC 5245）。</string>
@@ -65,7 +65,7 @@
     <string name="numeric_keypad_help">如果选中，当“呼叫…”字段聚焦时，将显示数字键盘。</string>"
     <string name="invalid_sip_uri_hostpart">SIP URI 主机部分“%1$s”无效</string>
     <string name="default_account">默认账号</string>
-    <string name="default_account_help">如果选中，则在启动 baresip 时选择此账号。</string>
+    <string name="default_account_help">如果选中，则在启动 vnt 时选择此账号。</string>
     <string name="accounts">账号</string>
     <string name="new_account">新账号的 SIP URI</string>
     <string name="accounts_help">新账号的 SIP URI 格式为 &lt;user&gt;@&lt;domain&gt;[:&lt;port&gt;][;transport=udp|tcp|tls]。如果指定了 &lt;port&gt;，但未指定传输协议，则传输协议默认为 UDP。如果未指定 &lt;port&gt;，但指定了传输协议，则 &lt;port&gt; 默认为 5060 或 5061（TLS）。如果二者均未指定，也没有指定出站代理，则将仅根据域名的 DNS 信息确定账号的注册服务器（如果有）。</string>
@@ -119,26 +119,26 @@
     <string name="video_codecs">视频编解码器</string>
     <string name="configuration">设置</string>
     <string name="start_automatically">自动启动</string>
-    <string name="start_automatically_help">如果选中，在设备启动后或安装新版本 baresip 后，baresip 将自动启动。启动会延迟至设备解锁后执行。</string>
+    <string name="start_automatically_help">如果选中，在设备启动后或安装新版本 vnt 后，vnt 将自动启动。启动会延迟至设备解锁后执行。</string>
     <string name="appear_on_top_permission">自动启动需要“悬浮窗”权限。</string>
     <string name="battery_optimizations">电池优化</string>
-    <string name="battery_optimizations_help">如果您想降低 Android 限制 baresip 访问网络或让 baresip 进入待机状态的概率，请禁用电池优化。</string>
+    <string name="battery_optimizations_help">如果您想降低 Android 限制 vnt 访问网络或让 vnt 进入待机状态的概率，请禁用电池优化。</string>
     <string name="default_phone_app">默认电话应用</string>
     <string name="dialer_role_not_available">默认电话应用角色不可用</string>
-    <string name="default_phone_app_help">如果选中，baresip 将成为默认电话应用。</string>
+    <string name="default_phone_app_help">如果选中，vnt 将成为默认电话应用。</string>
     <string name="listen_address">监听地址</string>
-    <string name="listen_address_help">baresip 监听传入 SIP 请求的 IP 地址和端口，格式为“地址:端口”。如果 IP 地址是 IPv6 地址，则必须将其写在方括号 [] 内。IPv4 地址 0.0.0.0 或 IPv6 地址 [::] 使 baresip 监听所有可用地址。如果留空（出厂默认），baresip 将在所有可用地址的任意端口上监听。</string>
+    <string name="listen_address_help">vnt 监听传入 SIP 请求的 IP 地址和端口，格式为“地址:端口”。如果 IP 地址是 IPv6 地址，则必须将其写在方括号 [] 内。IPv4 地址 0.0.0.0 或 IPv6 地址 [::] 使 vnt 监听所有可用地址。如果留空（出厂默认），vnt 将在所有可用地址的任意端口上监听。</string>
     <string name="invalid_listen_address">监听地址无效</string>
     <string name="address_family">地址族</string>
-    <string name="address_family_help">选择 baresip 正在使用的 IP 地址。如果选择 IPv4 或 IPv6，则 baresip 仅使用 IPv4 或 IPv6 地址。如果两者都没有选择，baresip 将同时使用 IPv4 和 IPv6 地址。</string>
+    <string name="address_family_help">选择 vnt 正在使用的 IP 地址。如果选择 IPv4 或 IPv6，则 vnt 仅使用 IPv4 或 IPv6 地址。如果两者都没有选择，vnt 将同时使用 IPv4 和 IPv6 地址。</string>
     <string name="dns_servers">DNS 服务器</string>
     <string name="dns_servers_help">以英文逗号分隔的 DNS 服务器地址列表。如果未指定，则从系统中动态获取 DNS 服务器地址。每个 DNS 地址的格式为“ip:端口”或“ip”。如果省略端口，则默认为 53。如果 ip 是 IPv6 地址，并且指定了端口，则 ip 必须写在方括号 [] 内。例如，列表“8.8.8.8:53,[2001:4860:4860::8888]:53”指向公共 Google DNS 服务器的 IPv4 和 IPv6 地址。</string>
     <string name="invalid_dns_servers">DNS 服务器无效</string>
     <string name="failed_to_set_dns_servers">无法设置 DNS 服务器</string>
     <string name="tls_certificate_file">TLS 证书文件</string>
-    <string name="tls_certificate_file_help">如果选中，则已加载或将加载包含此 baresip 实例的 TLS 证书和私钥的文件。在 Android 9 中，会从下载文件夹加载名为“cert.pem”的文件。出于安全原因，请在加载后删除该文件。</string>
+    <string name="tls_certificate_file_help">如果选中，则已加载或将加载包含此 vnt 实例的 TLS 证书和私钥的文件。在 Android 9 中，会从下载文件夹加载名为“cert.pem”的文件。出于安全原因，请在加载后删除该文件。</string>
     <string name="verify_server">验证服务器证书</string>
-    <string name="verify_server_help">如果选中，则在使用 TLS 传输时，baresip 会验证 SIP 用户代理和 SIP 代理服务器的 TLS 证书。</string>
+    <string name="verify_server_help">如果选中，则在使用 TLS 传输时，vnt 会验证 SIP 用户代理和 SIP 代理服务器的 TLS 证书。</string>
     <string name="tls_ca_file">TLS CA 文件</string>
     <string name="tls_ca_file_help">如果选中，则已加载或将加载包含 Android 操作系统中未包含的证书颁发机构的 TLS 证书的文件。在 Android 9 中，会从下载文件夹加载名为“ca_certs.crt”的文件。</string>
     <string name="no_read_permission">无外部存储读取权限</string>
@@ -180,21 +180,21 @@
     <string name="user_agent">用户代理</string>
     <string name="user_agent_help">自定义 SIP 请求/响应 User-Agent 标头字段值</string>
     <string name="invalid_user_agent">User-Agent 标头字段值无效</string>
-    <string name="contacts_help">选择是否使用 baresip 联系人、Android 联系人或两者都使用。如果两者都使用，并且两个联系人中都存在同名联系人，则将选择 baresip 联系人。</string>
+    <string name="contacts_help">选择是否使用 vnt 联系人、Android 联系人或两者都使用。如果两者都使用，并且两个联系人中都存在同名联系人，则将选择 vnt 联系人。</string>
     <string name="both">两者</string>
     <string name="debug">调试</string>
     <string name="debug_help">如果选中，则向 Logcat 提供调试和信息级别的日志消息。</string>
     <string name="sip_trace">SIP 跟踪</string>
-    <string name="sip_trace_help">如果选中且调试也已选中，则 Logcat 消息还包括 SIP 请求和响应跟踪。在 baresip 启动时自动取消选中。</string>
+    <string name="sip_trace_help">如果选中且调试也已选中，则 Logcat 消息还包括 SIP 请求和响应跟踪。在 vnt 启动时自动取消选中。</string>
     <string name="reset_config">重置为出厂默认</string>
     <string name="reset_config_help">如果选中，设置将重置为出厂默认值。</string>
     <string name="reset_config_alert">是否确定要将设置重置为出厂默认值？</string>
     <string name="reset">重置</string>
     <string name="read_cert_error">无法读取“cert.pem”文件。</string>
     <string name="read_ca_certs_error">无法读取“ca_certs.crt”文件。</string>
-    <string name="config_restart">您需要重启 baresip 才能激活新设置。是否立即重启？</string>
+    <string name="config_restart">您需要重启 vnt 才能激活新设置。是否立即重启？</string>
     <string name="consent_request">同意请求</string>
-    <string name="contacts_consent">如果选择了 Android 联系人，可将其作为 SIP 和 tel URI 的引用用于通话和消息。baresip 应用不会存储 Android 联系人，也不会与任何人共享。为了使 Android 联系人在 baresip 中可用，Google 要求您接受此处和应用 <a href="https://raw.githubusercontent.com/juha-h/baresip-studio/master/PrivacyPolicy.txt">隐私政策</a> 中所述的使用。</string>
+    <string name="contacts_consent">如果选择了 Android 联系人，可将其作为 SIP 和 tel URI 的引用用于通话和消息。vnt 应用不会存储 Android 联系人，也不会与任何人共享。为了使 Android 联系人在 vnt 中可用，Google 要求您接受此处和应用 <a href="https://raw.githubusercontent.com/juha-h/vnt-studio/master/PrivacyPolicy.txt">隐私政策</a> 中所述的使用。</string>
     <string name="new_contact">新联系人</string>
     <string name="contact_name">名称</string>
     <string name="sip_or_tel_uri">SIP 或 tel URI</string>
@@ -270,7 +270,7 @@
     <string name="no_messages">您没有消息</string>
     <string name="listen">听</string>
     <string name="call_already_active">您已有正在进行的通话。</string>
-    <string name="start_failed">baresip 无法启动。这可能是由于设置值无效。请检查监听地址、TLS 证书文件和 TLS CA 文件。然后重启 baresip。</string>
+    <string name="start_failed">vnt 无法启动。这可能是由于设置值无效。请检查监听地址、TLS 证书文件和 TLS CA 文件。然后重启 vnt。</string>
     <string name="registering_failed">注册 %1$s 失败。</string>
     <string name="verify">验证请求</string>
     <string name="verify_sas">是否要验证 SAS &lt;%1$s&gt;？</string>
@@ -288,13 +288,13 @@
     <string name="call_is_secure">此通话安全且对方已验证！是否要取消验证对方？</string>
     <string name="unverify">取消验证</string>
     <string name="backed_up">应用程序数据（不包括录音）已备份到文件“%1$s”。在 Android 9 中，该文件位于下载文件夹中。</string>
-    <string name="backup_failed">无法将应用程序数据备份至文件“%1$s”。请检查“应用”→“baresip”→“权限”→“存储”。</string>
+    <string name="backup_failed">无法将应用程序数据备份至文件“%1$s”。请检查“应用”→“vnt”→“权限”→“存储”。</string>
     <string name="restart_request">重启请求</string>
-    <string name="restored">应用程序数据已恢复。需要重启 baresip。是否立即重启？</string>
-    <string name="restore_failed">无法恢复应用程序数据。请检查您输入的密码是否正确，备份文件是否来自此应用程序。在 Android 9 中，请检查“应用”→“baresip”→“权限”→“存储”，并确保文件“%1$s”存在于下载文件夹中。</string>
+    <string name="restored">应用程序数据已恢复。需要重启 vnt。是否立即重启？</string>
+    <string name="restore_failed">无法恢复应用程序数据。请检查您输入的密码是否正确，备份文件是否来自此应用程序。在 Android 9 中，请检查“应用”→“vnt”→“权限”→“存储”，并确保文件“%1$s”存在于下载文件夹中。</string>
     <string name="restore_unzip_failed">无法恢复应用程序数据。Android 14 及更高版本不允许恢复在 %1$s %2$s 版本之前备份的数据。</string>
     <string name="no_notifications">没有“通知”权限，您无法使用此应用程序。</string>
-    <string name="no_calls">baresip 需要“麦克风”权限才能进行语音通话。</string>
+    <string name="no_calls">vnt 需要“麦克风”权限才能进行语音通话。</string>
     <string name="no_video_calls">授予“相机”权限即可拨打或接听视频通话。</string>
     <string name="no_backup">没有“存储”权限，您无法创建备份。</string>
     <string name="no_restore">没有“存储”权限，您无法恢复备份。</string>
@@ -303,8 +303,8 @@
     <string name="no_network">无网络连接！</string>
     <string name="no_aec">无硬件声学回声消除！</string>
     <string name="audio_focus_denied">音频焦点被拒绝！</string>
-    <string name="audio_permissions">baresip 需要“麦克风”权限才能进行语音通话，需要“附近的设备”权限才能检测蓝牙麦克风/扬声器，需要“通知”权限才能发布通知，并且在 Android 9 中需要“存储”权限才能进行备份/恢复操作。</string>
-    <string name="audio_and_video_permissions">baresip+ 需要“麦克风”权限才能进行语音通话，需要“相机”权限才能进行视频通话，需要“附近的设备”权限才能检测蓝牙麦克风/扬声器，需要“通知”权限才能发布通知，并且在 Android 9 中需要“存储”权限才能进行备份/恢复操作。</string>
+    <string name="audio_permissions">vnt 需要“麦克风”权限才能进行语音通话，需要“附近的设备”权限才能检测蓝牙麦克风/扬声器，需要“通知”权限才能发布通知，并且在 Android 9 中需要“存储”权限才能进行备份/恢复操作。</string>
+    <string name="audio_and_video_permissions">vnt+ 需要“麦克风”权限才能进行语音通话，需要“相机”权限才能进行视频通话，需要“附近的设备”权限才能检测蓝牙麦克风/扬声器，需要“通知”权限才能发布通知，并且在 Android 9 中需要“存储”权限才能进行备份/恢复操作。</string>
     <string name="permissions_rationale">权限理由</string>
     <string name="call_recording_title">通话录音</string>
     <string name="call_recording_tip">如果激活，新的来电和去电都会被录音。可以在通话详情页面播放录音。</string>
@@ -313,18 +313,18 @@
     <string name="speakerphone_title">扬声器</string>
     <string name="speakerphone_tip">如果激活，音频将通过设备扬声器播放。</string>
     <string name="about_text_plus"><![CDATA[
-        <h1>基于 <a href="https://github.com/baresip/baresip">baresip</a> 库的带视频通话功能的 SIP 用户代理</h1>
+        <h1>基于 <a href="https://github.com/vnt/vnt">vnt</a> 库的带视频通话功能的 SIP 用户代理</h1>
         <br>
         <p>Juha Heinanen &lt;jh@tutpro.com&gt;</p>
         <p>版本 %1$s</p>
         <br>
         <h2>使用提示</h2>
         <ul>
-            <li>检查 baresip+ 设置中的默认值是否满足您的需求（触摸项目标题获取帮助）。</li>
+            <li>检查 vnt+ 设置中的默认值是否满足您的需求（触摸项目标题获取帮助）。</li>
             <li>然后在“账号”中，创建一个或多个账号（再次触摸项目标题以获取帮助）。</li>
             <li>账号的注册状态用彩色圆点显示：绿色（注册成功）、黄色（注册正在进行）、红色（注册失败）、白色（注册尚未激活）。</li>
             <li>触摸状态点可直接进入账号配置。</li>
-            <li>长按 baresip 栏图标可显示有关图标的信息。</li>
+            <li>长按 vnt 栏图标可显示有关图标的信息。</li>
             <li>向下滑动手势会导致当前显示的账号重新注册。</li>
             <li>长按当前显示的账号可启用或禁用账号的注册。</li>
             <li>向左/向右滑动手势可在账号之间切换。</li>
@@ -333,20 +333,20 @@
             <li>长按也可用于移除通话、聊天、消息和联系人。</li>
             <li>触摸/长按联系人图标可用于设置/移除头像。</li>
             <li>长按音频或视频编解码器可以启用/禁用该编解码器。</li>
-            <li>如需更多信息，请参阅 <a href="https://github.com/juha-h/baresip-studio/wiki">Wiki</a>。</li>
+            <li>如需更多信息，请参阅 <a href="https://github.com/juha-h/vnt-studio/wiki">Wiki</a>。</li>
         </ul>
         <h2>已知问题</h2>
         <ul>
             <li>当视频流处于仅发送模式时，自显画面无法正常显示。</li>
         </ul>
         <h2>隐私政策</h2>
-        <p>隐私政策可在<a href="https://raw.githubusercontent.com/juha-h/baresip-studio/video/PrivacyPolicy.txt">此处</a>获取。</p>
+        <p>隐私政策可在<a href="https://raw.githubusercontent.com/juha-h/vnt-studio/video/PrivacyPolicy.txt">此处</a>获取。</p>
         <br>
         <h2>源代码</h2>
-        <p>源代码可在 <a href="https://github.com/juha-h/baresip-studio">GitHub</a> 上找到，您也可以在此报告问题。</p>
+        <p>源代码可在 <a href="https://github.com/juha-h/vnt-studio">GitHub</a> 上找到，您也可以在此报告问题。</p>
         <br>
         <h2>语言翻译</h2>
-        <p>语言翻译通过 baresip <a href="https://hosted.weblate.org/projects/baresip/">Weblate</a> 项目进行管理。</p>
+        <p>语言翻译通过 vnt <a href="https://hosted.weblate.org/projects/vnt/">Weblate</a> 项目进行管理。</p>
         <br>
         <h2>许可</h2>
         <ul>
@@ -361,19 +361,19 @@
         </ul>
         ]]></string>
     <string name="about_text"><![CDATA[
-        <h1>基于 <a href="https://github.com/baresip/baresip">baresip</a> 库的 SIP 和移动通话用户代理</h1>
+        <h1>基于 <a href="https://github.com/vnt/vnt">vnt</a> 库的 SIP 和移动通话用户代理</h1>
         <br>
         <p>Juha Heinanen &lt;jh@tutpro.com&gt;</p>
         <p>版本 %1$s</p>
         <br>
         <h2>使用提示</h2>
         <ul>
-            <li>检查 baresip 设置中的默认值是否满足您的需求（触摸项目标题获取帮助）。</li>
-            <li>如果您想使用 baresip 进行移动通话，请启用默认电话应用设置。它将创建用于移动通话的移动账号。</li>
+            <li>检查 vnt 设置中的默认值是否满足您的需求（触摸项目标题获取帮助）。</li>
+            <li>如果您想使用 vnt 进行移动通话，请启用默认电话应用设置。它将创建用于移动通话的移动账号。</li>
             <li>然后在“账号”中，创建一个或多个 SIP 账号（再次触摸项目标题以获取帮助）。</li>
             <li>账号的注册状态用彩色圆点显示：绿色（注册成功）、黄色（注册正在进行）、红色（注册失败）、白色（注册尚未激活）。</li>
             <li>触摸状态点可直接进入账号配置。</li>
-            <li>长按 baresip 栏图标可显示有关图标的信息。</li>
+            <li>长按 vnt 栏图标可显示有关图标的信息。</li>
             <li>向下滑动手势会导致当前显示的账号重新注册。</li>
             <li>长按当前显示的账号可启用或禁用账号的注册。</li>
             <li>向左/向右滑动手势可在账号之间切换。</li>
@@ -382,16 +382,16 @@
             <li>长按也可用于移除通话、聊天、消息和联系人。</li>
             <li>触摸/长按联系人图标可用于设置/移除头像。</li>
             <li>长按音频编解码器可以启用/禁用该编解码器。</li>
-            <li>如需更多信息，请参阅 <a href="https://github.com/juha-h/baresip-studio/wiki">Wiki</a>。</li>
+            <li>如需更多信息，请参阅 <a href="https://github.com/juha-h/vnt-studio/wiki">Wiki</a>。</li>
         </ul>
         <h2>隐私政策</h2>
-            <p>隐私政策可在<a href="https://raw.githubusercontent.com/juha-h/baresip-studio/master/PrivacyPolicy.txt">此处</a>获取。</p>
+            <p>隐私政策可在<a href="https://raw.githubusercontent.com/juha-h/vnt-studio/master/PrivacyPolicy.txt">此处</a>获取。</p>
         <br>
         <h2>源代码</h2>
-            <p>源代码可在 <a href="https://github.com/juha-h/baresip-studio">GitHub</a> 上找到，您也可以在此报告问题。</p>
+            <p>源代码可在 <a href="https://github.com/juha-h/vnt-studio">GitHub</a> 上找到，您也可以在此报告问题。</p>
         <br>
         <h2>语言翻译</h2>
-            <p>语言翻译通过 baresip <a href="https://hosted.weblate.org/projects/baresip/">Weblate</a> 项目进行管理。</p>
+            <p>语言翻译通过 vnt <a href="https://hosted.weblate.org/projects/vnt/">Weblate</a> 项目进行管理。</p>
         <br>
         <h2>许可</h2>
         <ul>
@@ -438,7 +438,7 @@
     <string name="voicemain_tel_uri_help">用于检查语音信箱消息的 TEL URI。</string>
     <string name="no_telephone_number">移动通话只能拨打电话号码</string>
     <string name="default_messaging_app">默认短信应用</string>
-    <string name="default_messaging_app_help">如果选中，baresip 将成为短信/彩信的默认应用。</string>
+    <string name="default_messaging_app_help">如果选中，vnt 将成为短信/彩信的默认应用。</string>
     <string name="messaging_role_not_available">默认短信应用角色不可用</string>
     <string name="enable_default_messaging">请在设置中启用默认短信应用</string>
     <string name="email">电子邮件</string>

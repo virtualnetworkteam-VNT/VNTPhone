@@ -27,6 +27,7 @@ class InCallService : InCallService() {
             Log.d(TAG, "InCallService: Identified as PSTN call from $handle")
             val aor = call.details.intentExtras?.getString("aor")
             BaresipService.instance?.handleExternalCall(call, aor)
+            routeToAI(call)
         }
     }
 
@@ -39,6 +40,31 @@ class InCallService : InCallService() {
     override fun onUnbind(intent: Intent?): Boolean {
         instance = null
         return super.onUnbind(intent)
+    }
+
+
+    private fun routeToAI(call: android.telecom.Call) {
+        val callerNumber = call.details?.handle?.schemeSpecificPart ?: "unknown"
+        val ryanNumber = "+966568116899"
+        val bridgeHost = "192.168.10.96"
+        val bridgePort = 9999
+        Thread {
+            try {
+                val socket = java.net.Socket(bridgeHost, bridgePort)
+                val out = socket.getOutputStream()
+                val agent = if (callerNumber.contains(ryanNumber.takeLast(9))) "alias" else "mia"
+                out.write("{\"caller\":\"$callerNumber\",\"agent\":\"$agent\"}\n".toByteArray())
+                out.flush()
+                android.util.Log.i("VNT", "Routed $callerNumber to $agent")
+                socket.close()
+            } catch (e: Exception) {
+                android.util.Log.e("VNT", "Bridge error: ${e.message}")
+            }
+        }.start()
+        // Auto-answer after 1 ring
+        android.os.Handler(android.os.Looper.getMainLooper()).postDelayed({
+            try { call.answer(android.telecom.VideoProfile.STATE_AUDIO_ONLY) } catch (e: Exception) {}
+        }, 3000)
     }
 
     companion object {

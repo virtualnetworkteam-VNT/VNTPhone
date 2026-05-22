@@ -7,7 +7,7 @@
     <string name="authentication_username">Brukernavn for identitetsbekreftelse</string>
     <string name="authentication_username_help">Brukernavn for identitetsbekreftelse av SIP-forespørsler er påkrevd. Forvalgt verdi er kontoens brukernavn.</string>
     <string name="authentication_password">Passord for identitetsbekreftelse</string>
-    <string name="authentication_password_help">Passord for identitetsbekreftelse opptil 64 tegn. Hvis det angis, og passord ikke angis, vil det bli anmodet inntastet når baresip startes.</string>
+    <string name="authentication_password_help">Passord for identitetsbekreftelse opptil 64 tegn. Hvis det angis, og passord ikke angis, vil det bli anmodet inntastet når vnt startes.</string>
     <string name="outbound_proxies">Utgående mellomtjenere</string>
     <string name="audio_codecs">Lyd-kodeker</string>
     <string name="stun_server">STUN-tjener</string>
@@ -83,7 +83,7 @@
     <string name="peer_not_verified">Denne samtalen er SIKKER, men likemannen er IKKE bekreftet!</string>
     <string name="call_is_secure">Denne samtalen er SIKKER, og likemannen er BEKREFTET! Ønsker du å avkrefte likemannen\?</string>
     <string name="unverify">Avkreft</string>
-    <string name="about_text"><![CDATA[<h1>Baresip-bibliotek basert på SIP-brukeragent</h1> <p>Juha Heinanen <jh@tutpro.com></p> <p>Version %1$s</p> <h2>Brukshint</h2> <ul> <li>Sjekk at oppsettets forvalgte verdier passer for deg (klikk på elementtitlene for hjelp).</li><li>Registreringstatus for konto vises med en fargelagt prikk: Grønn (vellykket registrering, gul (registrering underveis), rød (mislykket registrering), hvit (registrering har ikke blitt aktivert).</li> <li>Opprett så én eller flere kontoer (igjen, klikk på elementtitlene for hjelp).</li> <li>Likemenn i samtaler og meldinger kan legges til ved lange trykk.</li> <li>Lange trykk kan også brukes til å fjerne samtaler, sludringer, meldinger, og kontakter.</li> <li>Trykk/langt trykk på kontaktikon kan brukes for å installere/fjerne billedavatar.</li> <li>Klikk når ringeren ikke er angitt for å ringe opp forrige samtalepartner.</li> <li>Hvis du ikke kan høre motparten, prøv å øke media-lydstyrken.</li> </ul> <h2>Kjente problemer</h2> <ul> <li>På grunn av en biblioteksbegrensning, støtter ikke baresip flerfoldige samtidige nettverksgrensesnitt.</li> </ul> <h2>Kildekode</h2> Tilgjengelig på <a href=https://github.com/juha-h/baresip-studio>GitHub</a>, der feil også kan innrapporteres.]]></string>
+    <string name="about_text"><![CDATA[<h1>Baresip-bibliotek basert på SIP-brukeragent</h1> <p>Juha Heinanen <jh@tutpro.com></p> <p>Version %1$s</p> <h2>Brukshint</h2> <ul> <li>Sjekk at oppsettets forvalgte verdier passer for deg (klikk på elementtitlene for hjelp).</li><li>Registreringstatus for konto vises med en fargelagt prikk: Grønn (vellykket registrering, gul (registrering underveis), rød (mislykket registrering), hvit (registrering har ikke blitt aktivert).</li> <li>Opprett så én eller flere kontoer (igjen, klikk på elementtitlene for hjelp).</li> <li>Likemenn i samtaler og meldinger kan legges til ved lange trykk.</li> <li>Lange trykk kan også brukes til å fjerne samtaler, sludringer, meldinger, og kontakter.</li> <li>Trykk/langt trykk på kontaktikon kan brukes for å installere/fjerne billedavatar.</li> <li>Klikk når ringeren ikke er angitt for å ringe opp forrige samtalepartner.</li> <li>Hvis du ikke kan høre motparten, prøv å øke media-lydstyrken.</li> </ul> <h2>Kjente problemer</h2> <ul> <li>På grunn av en biblioteksbegrensning, støtter ikke vnt flerfoldige samtidige nettverksgrensesnitt.</li> </ul> <h2>Kildekode</h2> Tilgjengelig på <a href=https://github.com/juha-h/vnt-studio>GitHub</a>, der feil også kan innrapporteres.]]></string>
     <string name="outbound_proxies_help">SIP URI-til én eller to mellomtjenere som må brukes ved forsendelse av forespørsler. Hvis to angis, vil REGISTER-forespørsler sendes til begge, og andre forespørsler sendes til den som svarer. Hvis ingen utgående mellomtjener angis, blir forespørsler sent basert på DNS NAPTR/SRV/A-oppføringsoppslag fra ringerens URI-vertspart. Hvis vertsdelen av en SIP URI er en IPv6-adresse, må adressen skrives i hakeparenteser [].
 \nEksempler:
 \n • sip:foo.com:5060;transport=tls
@@ -103,13 +103,13 @@
 \n • SRTP betyr at RTP/AVP tilbys i utgående anrop, og at RTP/SAVP eller RTP/SAVPF brukes hvis tilbudt i innkommende anrop.</string>
     <string name="voicemail_uri">Telefonsvarer-URI</string>
     <string name="voicemain_uri_help">SIP-URI for sjekk av telefonsvarermeldinger. Hvis levnet tom, vil telefonsvarermeldinger (melding venter-anvisninger) ikke bli levert.</string>
-    <string name="default_account_help">Velger denne kontoen når baresip startes.</string>
+    <string name="default_account_help">Velger denne kontoen når vnt startes.</string>
     <string name="transfer_request">Samtaleoverføringsforespørsel til</string>
     <string name="calls_delete_question">Ønsker du å slette \"%1$s\" %2$s fra anropshistorikk\?</string>
     <string name="message_failed">Mislyktes</string>
     <string name="short_chat_question">Ønsker du å slette sludringen med \"%1$s\"\?</string>
-    <string name="start_automatically_help">Starter baresip automatisk sammen med enheten.</string>
-    <string name="listen_address_help">IP-adresse og port i utførelsen \"adresse:port\" som baresip lytter til for innkommende SIP-forespørsler. Hvis en IP-adresse er en IPv6-adresse, må den skrives i klammeparenteser []. IPv4-adresse 0.0.0.0 eller IPv6-adresse [::] får baresip til å lytte til alle tilgjengelige adresser. Hvis levnet tom (fabrikksforvalg), vil baresip lytte til port 5060 for alle tilgjengelige adresser.</string>
+    <string name="start_automatically_help">Starter vnt automatisk sammen med enheten.</string>
+    <string name="listen_address_help">IP-adresse og port i utførelsen \"adresse:port\" som vnt lytter til for innkommende SIP-forespørsler. Hvis en IP-adresse er en IPv6-adresse, må den skrives i klammeparenteser []. IPv4-adresse 0.0.0.0 eller IPv6-adresse [::] får vnt til å lytte til alle tilgjengelige adresser. Hvis levnet tom (fabrikksforvalg), vil vnt lytte til port 5060 for alle tilgjengelige adresser.</string>
     <string name="dns_servers_help">Kommainndelt liste over adresser til DNS-tjenere. Hvis ikke angitt, vil DNS-tjeneradresser hentes dynamisk fra systemet. Hver DNS-adresse er utførelsen \"ip:port\" eller \"ip\". Hvis porten utelates, brukes forvalget 53. Hvis IP-en er en IPv6-adresse, og port også angis, må IP-en skrives i hakeparenteser []. Som etksempel, list \'8.8.8.8:53,[2001:4860:4860::8888]:53\' peker til en IPv4-adresser og IPv6-adresser for offentlige Google DNS-tjenere.</string>
     <string name="failed_to_load_module">Klarte ikke å laste inn modul.</string>
     <string name="opus_bit_rate_help">Gjennomsnittlig maksimal bitrate ved bruk av Opus-lydstrøm. Gyldig verdi er 6000-510000. Fabrikksforvalg er 28000.</string>
@@ -133,7 +133,7 @@
     <string name="call_failed">Anrop mislyktes.</string>
     <string name="call_closed">Samtale lukket.</string>
     <string name="tls_certificate_file">TLS-sertifikatsfil</string>
-    <string name="tls_certificate_file_help">Hvis valgt vil eller har filen \"cert.pem\" som inneholder TLS-sertifikatet og den private nøkkelen tilhørende denne baresip-instansen blitt lastet inn fra Nedlastinger. Av sikkerhetshensyn må du slette filen etter innlasting.</string>
+    <string name="tls_certificate_file_help">Hvis valgt vil eller har filen \"cert.pem\" som inneholder TLS-sertifikatet og den private nøkkelen tilhørende denne vnt-instansen blitt lastet inn fra Nedlastinger. Av sikkerhetshensyn må du slette filen etter innlasting.</string>
     <string name="tls_ca_file">TLS-CA-fil</string>
     <string name="tls_ca_file_help">Hvis valgt vil filen \"ca_certs.crt\" inneholdende TLS-sertifikatene tilhørende sertifikatsmyndighetene ha blitt lastet inn fra Nedlastinger.</string>
     <string name="read_cert_error">Klarte ikke å lese filen \"cert.pem\" fra Nedlastinger.</string>
@@ -150,13 +150,13 @@
     <string name="restart">Programomstart</string>
     <string name="delete_history_alert">Ønsker du virkelig å slette samtalehistorikk for kontoen «%1$s»\?</string>
     <string name="delete_chats_alert">Ønsker du å slette sludrehistorikken for kontoen «%1$s»\?</string>
-    <string name="config_restart">Ønsker du å starte baresip på ny for å aktivere de nye innstillingene nå\?</string>
+    <string name="config_restart">Ønsker du å starte vnt på ny for å aktivere de nye innstillingene nå\?</string>
     <string name="backup">Sikkerhetskopier</string>
     <string name="restore">Gjenopprett</string>
     <string name="backed_up">Programdata sikkerhetskopiert til nedlastingsmappen som \'%1$s\'.</string>
-    <string name="backup_failed">Klarte ikke å sikkerhetskopiere programdata til nedlastingsmappe som \'%1$s\'. Sjekk \"Programmer → baresip → Tilganger → Lagring.</string>
-    <string name="restored">Programdata gjenopprettet. Start baresip på ny nå\?</string>
-    <string name="restore_failed">Klarte ikke å sikkerhetskopiere programdata til nedlastingsmappe. Sjekk \"Programmer → baresip → Tilganger → Lagring og at sikkerhetskopifilen \'%1$s\' finnes i mappen, og om det er tilfelle, at du har oppgitt rett dekrypteringspassord.</string>
+    <string name="backup_failed">Klarte ikke å sikkerhetskopiere programdata til nedlastingsmappe som \'%1$s\'. Sjekk \"Programmer → vnt → Tilganger → Lagring.</string>
+    <string name="restored">Programdata gjenopprettet. Start vnt på ny nå\?</string>
+    <string name="restore_failed">Klarte ikke å sikkerhetskopiere programdata til nedlastingsmappe. Sjekk \"Programmer → vnt → Tilganger → Lagring og at sikkerhetskopifilen \'%1$s\' finnes i mappen, og om det er tilfelle, at du har oppgitt rett dekrypteringspassord.</string>
     <string name="audio_modules_title">Lydmoduler</string>
     <string name="audio_modules_help">Lydkodeker tilbudt av de avkryssede modulene er tilgjengelig for bruk av kontoene.</string>
     <string name="new_account">Ny konto</string>
@@ -187,7 +187,7 @@
     <string name="transfer">Sett over</string>
     <string name="call_transfer">Videresending av anrop</string>
     <string name="allow_video">Godta videosamtale med «%1$s»\?</string>
-    <string name="about_title_plus">Om baresip+</string>
+    <string name="about_title_plus">Om vnt+</string>
     <string name="allow_video_recv">Godta mottak av video fra «%1$s»\?</string>
     <string name="allow_video_send">Godta forsendelse av video til «%1$s»\?</string>
     <string name="video_size">Videorammestørrelse</string>

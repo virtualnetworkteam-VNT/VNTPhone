@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- About Activity -->
-    <string name="about_title">baresip sovelluksesta</string>
-    <string name="about_title_plus">baresip+ sovelluksesta</string>
+    <string name="about_title">vnt sovelluksesta</string>
+    <string name="about_title_plus">vnt+ sovelluksesta</string>
     <string name="about_text">
         <![CDATA[
-            <h1><a href="https://github.com/baresip/baresip">Baresip</a>-kirjastoon perustuva
+            <h1><a href="https://github.com/vnt/vnt">Baresip</a>-kirjastoon perustuva
                 SIP-äänipuhelut ja -pikaviestit sekä mobiilipuhelut mahdollistava sovellus</h1>
             <br>
             <p>Juha Heinanen &lt;jh@tutpro.com&gt;</p>
@@ -13,9 +13,9 @@
             <br>
             <h2>Käyttövihjeitä</h2>
             <ul>
-                <li>Tarkista, että baresip-sovelluksen Asetukset vastaavat tarpeitasi.
+                <li>Tarkista, että vnt-sovelluksen Asetukset vastaavat tarpeitasi.
                     Kunkin otsikon kosketus tarjoaa apua.</li>
-                <li>Jos haluat käyttää baresip-sovellusta mobiilipuheluihin, aktivoi Oletus puhelusovellus
+                <li>Jos haluat käyttää vnt-sovellusta mobiilipuheluihin, aktivoi Oletus puhelusovellus
                     -asetus. Se luo Mobile-tilin mobiilipuheluita varten.</li>
                 <li>Sitten luo yksi tai useampi SIP-tili Tilit-sivulla. Jälleen kunkin otsikon
                     kosketus tarjoaa apua.</li>
@@ -23,7 +23,7 @@
                     keltainen (rekisteröinti on meneillään), punainen (rekisteröinti epäonnistui),
                     valkoinen (rekisteröintiä ei ole aktivoitu).</li>
                 <li>Pisteen kosketus johtaa suoraan tilin asetuksiin.</li>
-                <li>Pitkä kosketus baresip-palkin ikoneihin näyttää tietoa ikoneista.</li>
+                <li>Pitkä kosketus vnt-palkin ikoneihin näyttää tietoa ikoneista.</li>
                 <li>Pyyhkäisy alas aikaansaa parhaillaan näkyvissä olevan tilin uudelleen rekisteröinnin.</li>
                 <li>Parhaillaan näkyvissä olevan tilin pitkä kosketus aktivoi tai passivoi tilin rekisteröinnin.</li>
                 <li>Pyyhkäisy vasemmalle/oikealle vaihtaa näkyvissä olevaa tiliä.</li>
@@ -32,18 +32,18 @@
                 <li>Pitkillä kosketuksilla voit myös poistaa puheluita, viestiketjuja, viestejä ja yhteystietoja.</li>
                 <li>Voit lisätä/poistaa yhteystiedon avatar-kuvan koskettamalla yhteystiedon ikonia lyhyesti/pitkästi.</li>
                 <li>Audio-koodekin saa pitkällä kosketuksella käytöön/pois käytöstä.</li>
-                <li>Katso lisätietoja <a href=https://github.com/juha-h/baresip-studio/wiki>Wiki</a>-sivulta.</li>
+                <li>Katso lisätietoja <a href=https://github.com/juha-h/vnt-studio/wiki>Wiki</a>-sivulta.</li>
             </ul>
             <h2>Tietosuoja</h2>
-            <p>Sovelluksen tietosuojakäytäntö on luettavissa <a href="https://raw.githubusercontent.com/juha-h/baresip-studio/master/PrivacyPolicy.txt">täältä</a>.</p>
+            <p>Sovelluksen tietosuojakäytäntö on luettavissa <a href="https://raw.githubusercontent.com/juha-h/vnt-studio/master/PrivacyPolicy.txt">täältä</a>.</p>
             <br>
             <h2>Lähdekoodi</h2>
-            <p>Lähdekoodi on saatavilla <a href=https://github.com/juha-h/baresip-studio>GitHub</a>:ssa,
+            <p>Lähdekoodi on saatavilla <a href=https://github.com/juha-h/vnt-studio>GitHub</a>:ssa,
                 missä voi myös raportoida virheistä.</p>
             <br>
             <h2>Kielikäännökset</h2>
-            <p>Kielikäännöksiä varten on olemassa baresip
-                <a href="https://hosted.weblate.org/projects/baresip/">Weblate</a> projekti.</p>
+            <p>Kielikäännöksiä varten on olemassa vnt
+                <a href="https://hosted.weblate.org/projects/vnt/">Weblate</a> projekti.</p>
             <br>
             <h2>Lisenssit</h2>
                 <ul>
@@ -58,7 +58,7 @@
     </string>
     <string name="about_text_plus">
         <![CDATA[
-            <h1><a href="https://github.com/baresip/baresip">Baresip</a>-kirjastoon perustuva
+            <h1><a href="https://github.com/vnt/vnt">Baresip</a>-kirjastoon perustuva
                  videopuhelut ja pikaviestit mahdollistava SIP-sovellus</h1>
             <br>
             <p>Juha Heinanen &lt;jh@tutpro.com&gt;</p>
@@ -66,13 +66,13 @@
             <br>
             <h2>Käyttövihjeitä</h2>
             <ul>
-                <li>Tarkista, että baresip+-sovelluksen Asetukset vastaavat tarpeitasi. Kunkin otsikon kosketus tarjoaa apua.</li>
+                <li>Tarkista, että vnt+-sovelluksen Asetukset vastaavat tarpeitasi. Kunkin otsikon kosketus tarjoaa apua.</li>
                 <li>Sen jälkeen luo yksi tai useampi tili. Jälleen kunkin otsikon kosketus tarjoaa apua.</li>
                 <li>Tilin rekisteröintitila kerrotaan värillisellä ympyrällä: vihreä (rekisteröinti onnistui),
                     keltainen (rekisteröinti on meneillään), punainen (rekisteröinti epäonnistui),
                     valkoinen (rekisteröintiä ei ole aktivoitu).</li>
                 <li>Ympyrän kosketus johtaa suoraan tilin asetuksiin.</li>
-                <li>Pitkä kosketus baresip-palkin ikoneihin näyttää tietoa ikoneista.</li>
+                <li>Pitkä kosketus vnt-palkin ikoneihin näyttää tietoa ikoneista.</li>
                 <li>Pyyhkäisy alas aikaansaa parhaillaan näkyvissä olevan tilin uudelleen rekisteröinnin.</li>
                 <li>Parhaillaan näkyvissä olevan tilin pitkä kosketus aktivoi tai passivoi tilin rekisteröinnin.</li>
                 <li>Pyyhkäisyllä vasemmalle/oikealle voit vaihtaa näkyvissä olevaa tiliä.</li>
@@ -81,7 +81,7 @@
                 <li>Pitkillä kosketuksilla voit myös poistaa puheluita, viestiketjuja, viestejä ja yhteystietoja.</li>
                 <li>Voit lisätä/poistaa yhteystiedon avatar-kuvan koskettamalla yhteystiedon ikonia lyhyesti/pitkästi.</li>
                 <li>Audio- ja video-koodekin saa pitkällä kosketuksella käytöön/pois käytöstä.</li>
-                <li>Katso lisätietoja <a href=https://github.com/juha-h/baresip-studio/wiki>Wiki</a>-sivulta.</li>
+                <li>Katso lisätietoja <a href=https://github.com/juha-h/vnt-studio/wiki>Wiki</a>-sivulta.</li>
             </ul>
             <h2>Tunnetut ongelmat</h2>
             <ul>
@@ -89,14 +89,14 @@
             </ul>
             <h2>Tietosuoja</h2>
             <p>Sovelluksen tietosuojakäytäntö on luettavissa
-                <a href="https://raw.githubusercontent.com/juha-h/baresip-studio/video/PrivacyPolicy.txt">täältä</a>.</p>
+                <a href="https://raw.githubusercontent.com/juha-h/vnt-studio/video/PrivacyPolicy.txt">täältä</a>.</p>
             <h2>Lähdekoodi</h2>
-            <p>Lähdekoodi on saatavilla <a href=https://github.com/juha-h/baresip-studio>GitHub</a>:ssa,
+            <p>Lähdekoodi on saatavilla <a href=https://github.com/juha-h/vnt-studio>GitHub</a>:ssa,
                 missä voi myös raportoida virheistä.</p>
             <br>
             <h2>Kielikäännökset</h2>
-            <p>Kielikäännöksiä varten on olemassa baresip
-                <a href="https://hosted.weblate.org/projects/baresip/">Weblate</a> projekti.</p>
+            <p>Kielikäännöksiä varten on olemassa vnt
+                <a href="https://hosted.weblate.org/projects/vnt/">Weblate</a> projekti.</p>
             <br>
             <h2>Lisenssit</h2>
             <ul>
@@ -115,7 +115,7 @@
     <string name="account">Tili</string>
     <string name="not_available">Ei saatavana</string>
     <string name="account_nickname_help">Lempinimi (jos annettu) millä tämä tili identifioidaan
-        baresip sovelluksessa.</string>
+        vnt sovelluksessa.</string>
     <string name="nickname">Lempinimi</string>
     <string name="invalid_account_nickname">Virheellinen tilin lempinimi \'%1$s\'</string>
     <string name="non_unique_account_nickname">Lempinimi \'%1$s\' on jo olemassa</string>
@@ -133,7 +133,7 @@
     <string name="authentication_password_help">Todentamiseen käytettävä
     salasana, jonka pituus on enintään 64 ASCII merkkiä. Jos
     käyttäjätunnus on annettu, mutta salasanaa ei ole annettu, se
-    kysytään, kun baresip käynnistetään.
+    kysytään, kun vnt käynnistetään.
     </string>
     <string name="invalid_authentication_password">Virheellinen todennussalasana \'%1$s\'</string>
     <string name="outbound_proxies">Välityspalvelimet</string>
@@ -159,7 +159,7 @@
     <string name="register_help">Jos merkitty, rekisteröinti on aktiivinen ja REGISTER-sanomat
         lähetetään Rekisteröintitaajuus-asetuksen mukaisesti.</string>
     <string name="reg_int">Rekisteröintitaajuus</string>
-    <string name="reg_int_help">Kertoo kuinka usein baresip lähettää REGISTER-sanomia. Arvon on
+    <string name="reg_int_help">Kertoo kuinka usein vnt lähettää REGISTER-sanomia. Arvon on
         oltava välillä 60-3600 (sekunttia).</string>
     <string name="invalid_reg_int">Virheellinen Rekisteröintitaajuus \'%1$s\'</string>
     <string name="check_origin">Tarkista lähdeosoite</string>
@@ -244,7 +244,7 @@
     <string name="invalid_sip_uri_hostpart">Virheellinen SIP URI:n domain-osa \'%1$s\'</string>
     <string name="default_account">Oletustili</string>
     <string name="default_account_help">Jos merkitty, niin tämä tili on
-        valittuna, kun baresip käynnistetään.
+        valittuna, kun vnt käynnistetään.
     </string>
     <string name="custom_parameters">Räätälöidyt parametrit</string>
     <string name="custom_parameters_help">Puolipisteellä toisistaan eroteltu lista
@@ -331,39 +331,39 @@
     <!-- Config Activity -->
     <string name="configuration">Asetukset</string>
     <string name="start_automatically">Käynnistä automaattisesti</string>
-    <string name="start_automatically_help">Jos merkitty, baresip
-    käynnistyy automaattisesti, kun laite käynnistyy tai kun uusi baresip-versio
+    <string name="start_automatically_help">Jos merkitty, vnt
+    käynnistyy automaattisesti, kun laite käynnistyy tai kun uusi vnt-versio
         on asennettu. Käynnistys tapahtuu, kun laite on avattu.</string>
     <string name="appear_on_top_permission">Automaattinen käynnistys vaatii "Näytä päällimmäisenä"
         käyttöoikeuden.</string>
     <string name="battery_optimizations">Akun käytön optimointi</string>
     <string name="battery_optimizations_help">Ota akun käytön optimointi pois päältä,
-        jos haluat vähentää todennäköisyyttä, että Android rajoittaa baresip-sovelluksen toimintaa
+        jos haluat vähentää todennäköisyyttä, että Android rajoittaa vnt-sovelluksen toimintaa
         ja pääsyä verkkoon.</string>
     <string name="default_phone_app">Oletus puhelusovellus</string>
     <string name="dialer_role_not_available">Oletus puhelusovellusrooli ei ole saatavana</string>
-    <string name="default_phone_app_help">Jos merkitty, baresip on oletus puhelusovellus</string>
+    <string name="default_phone_app_help">Jos merkitty, vnt on oletus puhelusovellus</string>
     <string name="default_messaging_app">Oletus tekstiviestisovellus</string>
-    <string name="default_messaging_app_help">Jos merkitty, baresip on tekstiviestien
+    <string name="default_messaging_app_help">Jos merkitty, vnt on tekstiviestien
         oletussovellus</string>
     <string name="messaging_role_not_available">Oletus tekstiviestisovellusrooli ei ole
         saatavana</string>
     <string name="enable_default_messaging">Ole hyvä ja merkitse \'Oletus tekstiviestisovellus\'
-        baresip asetuksissa</string>
+        vnt asetuksissa</string>
     <string name="listen_address">Kuunteluosoite</string>
     <string name="listen_address_help">IP-osoite ja portti muotoa
-    \'osoite:portti\', missä baresip kuuntelee sisään tulevia
+    \'osoite:portti\', missä vnt kuuntelee sisään tulevia
     SIP-sanomia. Jos IP-osoite on IPv6-osoite, se täytyy kirjoittaa
     sulkujen [] sisään. IPv4-osoite 0.0.0.0 tai IPv6-osoite [::]
     tarkoittaa kaikkia käytössä olevia osoitteita.  Oletusarvo on tyhjä,
-    jolloin baresip kuuntelee satunnaisesti valittua porttia kaikilla
+    jolloin vnt kuuntelee satunnaisesti valittua porttia kaikilla
     osoitteilla.
     </string>
     <string name="invalid_listen_address">Virheellinen kuunteluosoite</string>
     <string name="address_family">Osoiteperhe</string>
-    <string name="address_family_help">Valitsee, mitä IP-osoitteita baresip käyttää. Jos IPv4 tai IPv6
-        on valittu, baresip käyttää ainoastaan IPv4- tai IPv6-osoitteita. Jos kumpaakaan ei ole
-        valittu, baresip käyttää sekä IPv4- että IPv6-osoitteita.
+    <string name="address_family_help">Valitsee, mitä IP-osoitteita vnt käyttää. Jos IPv4 tai IPv6
+        on valittu, vnt käyttää ainoastaan IPv4- tai IPv6-osoitteita. Jos kumpaakaan ei ole
+        valittu, vnt käyttää sekä IPv4- että IPv6-osoitteita.
     </string>
     <string name="transport_protocols">Kuljetusprotokollat</string>
     <string name="transport_protocols_help">Pilkulla toisistaan erotettu lista tuettuja SIP-sanomien
@@ -383,12 +383,12 @@
     <string name="failed_to_set_dns_servers">DNS-palvelinten asetus epäonnistui</string>
     <string name="tls_certificate_file">TLS-sertifikaattitiedosto</string>
     <string name="tls_certificate_file_help">Jos merkitty, tiedosto joka sisältää
-        tämän baresip-sovelluksen julkisen ja yksityisen TLS-sertifikaatin, on joko jo ladattu
+        tämän vnt-sovelluksen julkisen ja yksityisen TLS-sertifikaatin, on joko jo ladattu
         tai tullaan lataamaan.  Android versiossa 9 tiedosto nimeltään \'cert.pem\'
         ladataan Download-kansiosta. Turvallisuusyistä tuhoa tiedosto heti lataamisen jälkeen.
     </string>
     <string name="verify_server">Tarkista palvelinten sertifikaatit</string>
-    <string name="verify_server_help">Jos merkitty, baresip tarkistaa SIP-palvelinten
+    <string name="verify_server_help">Jos merkitty, vnt tarkistaa SIP-palvelinten
         sertifikaatit, kun TLS-tiedonsiirto on käytössä.
     </string>
     <string name="tls_ca_file">TLS CA-tiedosto</string>
@@ -459,27 +459,27 @@
     <string name="user_agent">User Agent</string>
     <string name="user_agent_help">Räätälöity SIP sanoman User-Agent otsikkokentän arvo</string>
     <string name="invalid_user_agent">Virheellinen User-Agent otsikkokentän arvo</string>
-    <string name="contacts_help">Valitsee, käytetäänkö Baresip-yhteystietoja, Android-yhteystietoja vai molempia. Jos molempia käytetään ja molemmissa yhteystiedoissa on samanniminen yhteystieto, valitaan baresip-yhteystieto.</string>
+    <string name="contacts_help">Valitsee, käytetäänkö Baresip-yhteystietoja, Android-yhteystietoja vai molempia. Jos molempia käytetään ja molemmissa yhteystiedoissa on samanniminen yhteystieto, valitaan vnt-yhteystieto.</string>
     <string name="both">Molemmat</string>
     <string name="debug">Lokiviestit</string>
-    <string name="debug_help">Jos merkitty, baresip tuottaa debug- ja info-tason Logcat-viestejä.</string>
+    <string name="debug_help">Jos merkitty, vnt tuottaa debug- ja info-tason Logcat-viestejä.</string>
     <string name="sip_trace">SIP-sanomien jäljitys</string>
     <string name="sip_trace_help">Jos merkitty ja jos Lokiviestit on merkitty, Logcat-viestit
         sisältävät myös lähetetyt ja vastaanotetut SIP-sanomat. On aina merkitsemättä sovelluksen
         käynnistyessä.</string>
     <string name="reset_config">Palauta oletusasetukset</string>
     <string name="reset_config_help">Jos merkitty, oletusasetukset palautetaan, kun
-        baresip seuraavan kerran käynnistetään.
+        vnt seuraavan kerran käynnistetään.
     </string>
     <string name="reset_config_alert">Oletko varma, että haluat palauttaa oletusasetukset\?</string>
     <string name="reset">Palauta</string>
     <string name="read_cert_error">Tiedoston \'cert.pem\' luku epäonnistui.</string>
     <string name="read_ca_certs_error">Tiedoston \'ca_certs.crt\' epäonnistui.</string>
-    <string name="config_restart">baresip täytyy käynnistää uudelleen, jotta saat uudet asetukset
+    <string name="config_restart">vnt täytyy käynnistää uudelleen, jotta saat uudet asetukset
         käyttöön. Käynnistä nyt\?
     </string>
     <string name="consent_request">Suostumuspyyntö</string>
-    <string name="contacts_consent">Jos Androidin yhteystiedot on valittu, voit käyttää niitä puheluissa ja viesteissä SIP ja tel URI:en ohella. Baresip ei talleta Androidin yhteystietoja eikä jaa niitä kenellekään. Jotta Baresip saisi käyttöönsä Androidin yhteystiedot, Google vaatii, että annat siihen suostumuksen hyväksymällä Baresip-sovelluksen <a href="https://github.com/juha-h/baresip-studio/blob/master/PrivacyPolicy.txt">yksityisyyskäytännöt</a>.</string>
+    <string name="contacts_consent">Jos Androidin yhteystiedot on valittu, voit käyttää niitä puheluissa ja viesteissä SIP ja tel URI:en ohella. Baresip ei talleta Androidin yhteystietoja eikä jaa niitä kenellekään. Jotta Baresip saisi käyttöönsä Androidin yhteystiedot, Google vaatii, että annat siihen suostumuksen hyväksymällä Baresip-sovelluksen <a href="https://github.com/juha-h/vnt-studio/blob/master/PrivacyPolicy.txt">yksityisyyskäytännöt</a>.</string>
     <!-- Contact Activity -->
     <string name="new_contact">Uusi yhteystieto</string>
     <string name="contact_name">Nimi</string>
@@ -586,7 +586,7 @@
     <string name="call_already_active">Sinulla on jo puhelu käynnissä.</string>
     <string name="start_failed">Sovelluksen käynnistäminen epäonnistui. Tämä voi johtua virheellisestä
         Asetukset arvosta.  Tarkista Kuunteluosoite, TLS-varmennintiedosto ja TLS CA-tiedosto.
-        Sen jälkeen käynnistä baresip uudelleen.</string>
+        Sen jälkeen käynnistä vnt uudelleen.</string>
     <string name="registering_failed">Tilin \'%1$s\' rekisteröinti epäonnistui.</string>
     <string name="verify">Todennuspyyntö</string>
     <string name="verify_sas">Todennatko SAS:n &lt;%1$s&gt;\?</string>
@@ -610,13 +610,13 @@
         Download-kansiosta.</string>
     <string name="backup_failed">Sovelluksen tietojen talletus
         tiedostoon \'%1$s\' epäonnistui. Android versiossa 9 tarkista
-        Asetukset → Sovellukset → baresip → Käyttöluvat → Tallennustila.</string>
+        Asetukset → Sovellukset → vnt → Käyttöluvat → Tallennustila.</string>
     <string name="restart_request">Uudelleenkäynnistyspyyntö</string>
-    <string name="restored">Sovelluksen tiedot palautettiin. baresip pitää käynnistää
+    <string name="restored">Sovelluksen tiedot palautettiin. vnt pitää käynnistää
         uudelleen. Käynnistä uudelleen nyt\?</string>
     <string name="restore_failed">Sovelluksen tietojen palauttaminen epäonnistui. Tarkista, että
         annoit oikean salasanan ja että palautustiedosto kuuluu tällä sovellukselle.
-        Android versiossa 9 tarkista myös Asetukset → Sovellukset → baresip → Käyttöluvat →
+        Android versiossa 9 tarkista myös Asetukset → Sovellukset → vnt → Käyttöluvat →
         Tallennustila ja että tiedosto \'%1$s\' on Download-kansiossa.</string>
     <string name="restore_unzip_failed">Sovelluksen tietojen palauttaminen epäonnistui. Android
         versiosta 14 alkaen ei salli tietojen palauttamista, jos ne on tallettu ennen %1$s versioa
@@ -635,10 +635,10 @@
     <string name="no_android_contacts">Et voi käyttää Androidin yhteystietoja ilman Yhteystiedot-lupaa.</string>
     <string name="audio_focus_denied">Audiofokus on evätty!</string>
     <string name="permissions_rationale">Tarvittavat luvat</string>
-    <string name="audio_permissions">baresip tarvitsee Mikrofoni-luvan puheluita varten, Lähellä olevat laitteet -luvan
+    <string name="audio_permissions">vnt tarvitsee Mikrofoni-luvan puheluita varten, Lähellä olevat laitteet -luvan
         Bluetooth-mikrofonin/kaiuttimen havaitsemista varten, Ilmoitukset-luvan ilmoitusten lähettämistä varten
         ja Android versiossa 9 Tallennustila-luvan Talleta/Palauta-toimintoja varten.</string>
-    <string name="audio_and_video_permissions">baresip+ tarvitsee Mikrofoni-luvan puheluita varten,
+    <string name="audio_and_video_permissions">vnt+ tarvitsee Mikrofoni-luvan puheluita varten,
         Kamera-luvan videopuheluita varten, Lähellä olevat laitteet -luvan Bluetooth-mikrofonin/kaiuttimen
         havaitsemista varten, Ilmoitukset-luvan ilmoitusten näyttämistä varten ja Android versiossa 9
         Tallennustila-luvan Talleta/Palauta-toimintoja varten.</string>

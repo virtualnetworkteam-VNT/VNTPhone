@@ -10,11 +10,11 @@ configure<ApplicationExtension> {
     compileSdk = 36
     ndkVersion = "29.0.14206865"
     defaultConfig {
-        applicationId = "com.tutpro.baresip"
+        applicationId = "com.vnt.phone"
         minSdk = 28
         targetSdk = 36
-        versionCode = 507
-        versionName = "82.1.0"
+        versionCode = 1
+        versionName = "1.0.0"
         @Suppress("UnstableApiUsage")
         externalNativeBuild {
             cmake {
@@ -54,7 +54,7 @@ configure<ApplicationExtension> {
             version = "3.31.6"
         }
     }
-    namespace = "com.tutpro.baresip"
+    namespace = "com.vnt.phone"
 }
 
 composeCompiler {

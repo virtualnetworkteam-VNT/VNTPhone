@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="restored">Os dados da aplicação foram restaurados. O baresip precisa ser reiniciado. Reiniciar agora\?</string>
+    <string name="restored">Os dados da aplicação foram restaurados. O vnt precisa ser reiniciado. Reiniciar agora\?</string>
     <string name="short_chat_question">Quer apagar o chat com \'%1$s\'\?</string>
-    <string name="start_automatically_help">Se marcado, baresip iniciar automaticamente depois que o aparelho reiniciar.</string>
+    <string name="start_automatically_help">Se marcado, vnt iniciar automaticamente depois que o aparelho reiniciar.</string>
     <string name="verify_sas">Quer verificar SAS &lt;%1$s&gt;\?</string>
     <string name="tls_ca_file_help">Se estiver marcada, foi ou será carregado um ficheiro que contém certificados TLS de tais autoridades de certificação que não estão incluídas no sistema operativo Android. Na versão 9 do Android, um ficheiro chamado “ca_certs.crt” é carregado da pasta Download.</string>
     <string name="debug_help">Se selecionado, disponibiliza mensagens de depuração no registo log e informações para o Logcat.</string>
@@ -19,7 +19,7 @@
     <string name="delete_history_alert">Quer apagar o histórico de chamadas da conta \'%1$s\'\?</string>
     <string name="add_contact">Adicionar Contato</string>
     <string name="stun_server_help">Um URI do servidor STUN/TURN na forma de scheme:host[:porta][\?transport=udp|tcp]. Onde o scheme é \'stun\', \'stuns\', \'turn\', ou \'turns\'. O Servidor predefinido de fábrica para o STUN e os protocolos ICE são \'stun:stun.l.google.com:19302\' apontando para o servidor STUN público do Google. Não há qualquer servidor STUN predefinido de fábrica.</string>
-    <string name="start_failed">Baresip falhou ao iniciar. Isso pode ser devido a um valor inválido das Configurações. Verifique Endereço de Escuta, Ficheiro de Certificado TLS e Ficheiro CA TLS. Em seguida, reinicie o baresip.</string>
+    <string name="start_failed">Baresip falhou ao iniciar. Isso pode ser devido a um valor inválido das Configurações. Verifique Endereço de Escuta, Ficheiro de Certificado TLS e Ficheiro CA TLS. Em seguida, reinicie o vnt.</string>
     <string name="call_already_active">Já tem uma chamada ativa.</string>
     <string name="calls_call">chamada</string>
     <string name="accounts_help">SIP URI da nova conta no formato: &lt;utilizador&gt;@@&lt;domínio&gt;[:&lt;porta&gt;][;transport=udp|tcp|tls]. Se a &lt;porta&gt; for informada e o protocolo de transporte não, o padrão será UDP. Se a &lt;porta&gt; não for informada e o protocolo de transporte for, a &lt;porta&gt; padrão é 5060 ou 5061 (TLS). Se nenhum dos dois ou nenhum proxy for informado, o utilizador da conta (caso haja) é determinado exclusivamente com base nas informações do DNS do domínio.</string>
@@ -59,8 +59,8 @@
     <string name="media_nat">NAT Transversal de Mídia</string>
     <string name="voicemail_messages">Mensagens do Correio de Voz</string>
     <string name="video_call">Chamada de vídeo</string>
-    <string name="default_account_help">Se marcado, esta conta é selecionada quando o baresip for iniciado.</string>
-    <string name="backup_failed">Falha ao fazer o backup dos dados da aplicação no ficheiro \'%1$s\'. Verifique Aplicações → baresip → Permissões → Armazenamento.</string>
+    <string name="default_account_help">Se marcado, esta conta é selecionada quando o vnt for iniciado.</string>
+    <string name="backup_failed">Falha ao fazer o backup dos dados da aplicação no ficheiro \'%1$s\'. Verifique Aplicações → vnt → Permissões → Armazenamento.</string>
     <string name="display_name_help">Nome (se houver) usado em From URI de solicitações de saída.</string>
     <string name="call_failed">A ligação falhou</string>
     <string name="verify">Verificar a Solicitação</string>
@@ -91,7 +91,7 @@
     <string name="delete">Apagar</string>
     <string name="short_message_question">Quer apagar a mensagem\?</string>
     <string name="confirmation">Confirmação</string>
-    <string name="config_restart">Precisa reiniciar o baresip para aplicar as novas configurações. Reiniciar agora\?</string>
+    <string name="config_restart">Precisa reiniciar o vnt para aplicar as novas configurações. Reiniciar agora\?</string>
     <string name="call">Chamada</string>
     <string name="video_codecs">Codecs de Vídeo</string>
     <string name="auto">Automático</string>
@@ -136,9 +136,9 @@
 \n • SRTP-MAND significa que RTP/SAVP é oferecido em chamadas efetuadas e requerido em chamadas recebidas.
 \n • SRTP significa que RTP/AVP é oferecido em chamadas efetuadas e que RTP/SAVP ou RTP/SAVPF é usado se oferecido em chamadas recebidas.</string>
     <string name="new_messages">novas mensagens</string>
-    <string name="about_text"><![CDATA["\n        <h1>Biblioteca Baresip baseado em agente de utilizador SIP</h1>\n        <br>\n        <p>Juha Heinanen &lt;jh@tutpro.com&gt;</p>\n        <p>Versão %1$s</p>\n        <br>\n        <h2>Dicas de Uso</h2>\n        <ul>\n            <li>Verifique se os valores padrão nas configurações do baresip atendem\n                 às suas necessidades (toque nos títulos dos elementos para obter ajuda).\n            <li>Em seguida, em Contas, crie uma ou mais contas (toque novamente nos títulos dos elementos para obter ajuda).</li>\n            <li>O estado de registo de uma conta é mostrado com um ponto colorido: verde (registo\n                bem-sucedido), amarelo (registo em andamento), vermelho (falha no registo), branco (registo\n                não foi ativado).</li>\n            <li>O toque no ponto leva diretamente à configuração da conta.</li>\n            <li>O gesto de deslizar para baixo causa o novo registo da conta exibida no momento.</li>\n            <li>Um toque longo na conta exibida no momento ativa ou desativa o registo da conta.</li>\n            <li>O participante da chamada anterior pode ser selecionado novamente tocando no ícone de chamada quando\n                Callee estiver vazio.</li>\n            <li>É possível adicionar pares de chamadas e mensagens aos contatos por meio de toques longos.</li>\n            <li>Também é possível usar toques longos para remover chamadas, bate-papos, mensagens e contatos.</li>\n            <li>Toque/toque longo no ícone do contato para instalar/remover o avatar.</li>\n            <li>Para mais informações, consulte <a href=\"https://github.com/juha-h/baresip-studio/wiki\">Wiki</a>.</li>\n        </ul>\n        <h2>Política de privacidade</h2>\n            <p>A política de privacidade está disponível em<a href=\"https://raw.githubusercontent.com/juha-h/baresip-studio/master/PrivacyPolicy.txt\">here</a>.</p>\n        <br>\n        <h2>Código fonte</h2>\n            <p>O código fonte está disponível no <a href=\"https://github.com/juha-h/baresip-studio\">GitHub</a>,\n            onde os problemas encontrados também podem ser reportados.</p>\n        <br>\n        <h2>Licenças</h2>\n        <ul>\n            <li><b>BSD-3-Clause</b> exceto os seguintes:</li>\n            <li><b>Apache 2.0</b> codecs AMR e segurança TLS</li>\n            <li><b>AGPLv4</b> criptografia de média ZRTP</li>\n            <li><b>GNU LGPL 2.1</b> G.722, G.726 e codecs Codec2</li>\n            <li><b>GNU GPLv3</b> codec G.729</li>\n        </ul>\n        "]]></string>
+    <string name="about_text"><![CDATA["\n        <h1>Biblioteca Baresip baseado em agente de utilizador SIP</h1>\n        <br>\n        <p>Juha Heinanen &lt;jh@tutpro.com&gt;</p>\n        <p>Versão %1$s</p>\n        <br>\n        <h2>Dicas de Uso</h2>\n        <ul>\n            <li>Verifique se os valores padrão nas configurações do vnt atendem\n                 às suas necessidades (toque nos títulos dos elementos para obter ajuda).\n            <li>Em seguida, em Contas, crie uma ou mais contas (toque novamente nos títulos dos elementos para obter ajuda).</li>\n            <li>O estado de registo de uma conta é mostrado com um ponto colorido: verde (registo\n                bem-sucedido), amarelo (registo em andamento), vermelho (falha no registo), branco (registo\n                não foi ativado).</li>\n            <li>O toque no ponto leva diretamente à configuração da conta.</li>\n            <li>O gesto de deslizar para baixo causa o novo registo da conta exibida no momento.</li>\n            <li>Um toque longo na conta exibida no momento ativa ou desativa o registo da conta.</li>\n            <li>O participante da chamada anterior pode ser selecionado novamente tocando no ícone de chamada quando\n                Callee estiver vazio.</li>\n            <li>É possível adicionar pares de chamadas e mensagens aos contatos por meio de toques longos.</li>\n            <li>Também é possível usar toques longos para remover chamadas, bate-papos, mensagens e contatos.</li>\n            <li>Toque/toque longo no ícone do contato para instalar/remover o avatar.</li>\n            <li>Para mais informações, consulte <a href=\"https://github.com/juha-h/vnt-studio/wiki\">Wiki</a>.</li>\n        </ul>\n        <h2>Política de privacidade</h2>\n            <p>A política de privacidade está disponível em<a href=\"https://raw.githubusercontent.com/juha-h/vnt-studio/master/PrivacyPolicy.txt\">here</a>.</p>\n        <br>\n        <h2>Código fonte</h2>\n            <p>O código fonte está disponível no <a href=\"https://github.com/juha-h/vnt-studio\">GitHub</a>,\n            onde os problemas encontrados também podem ser reportados.</p>\n        <br>\n        <h2>Licenças</h2>\n        <ul>\n            <li><b>BSD-3-Clause</b> exceto os seguintes:</li>\n            <li><b>Apache 2.0</b> codecs AMR e segurança TLS</li>\n            <li><b>AGPLv4</b> criptografia de média ZRTP</li>\n            <li><b>GNU LGPL 2.1</b> G.722, G.726 e codecs Codec2</li>\n            <li><b>GNU GPLv3</b> codec G.729</li>\n        </ul>\n        "]]></string>
     <string name="video_size">Tamanho do Quadro do Vídeo</string>
-    <string name="restore_failed">Falha ao restaurar os dados da aplicação. Verifique se inseriu a palavra-passe correta e que o ficheiro de backup seja deste aplicação, Nas versões do Android 9 e anteriores, verifique também em Apps → baresip → Permissões → Armazenamento e se o ficheiro \'%1$s\' existe na pasta Download.</string>
+    <string name="restore_failed">Falha ao restaurar os dados da aplicação. Verifique se inseriu a palavra-passe correta e que o ficheiro de backup seja deste aplicação, Nas versões do Android 9 e anteriores, verifique também em Apps → vnt → Permissões → Armazenamento e se o ficheiro \'%1$s\' existe na pasta Download.</string>
     <string name="restart">Reiniciar</string>
     <string name="authentication_username">Nome de Utilizador de Autenticação</string>
     <string name="authentication_username_help">Nome de utilizador de autenticação se a autenticação de solicitações SIP for necessária. O valor predefinido é o nome de utilizador da conta.</string>
@@ -151,10 +151,10 @@
     <string name="audio_codecs">Codecs de Áudio</string>
     <string name="enable_history">Ativar</string>
     <string name="dtmf">DTMF</string>
-    <string name="no_calls">O baresip precisa de permissão do \"Microfone\" para realizar chamadas de voz.</string>
+    <string name="no_calls">O vnt precisa de permissão do \"Microfone\" para realizar chamadas de voz.</string>
     <string name="read_ca_certs_error">Houve uma falha ao ler o ficheiro \'ca_certs.crt\'.</string>
     <string name="account_exists">A conta \'%1$s\' já existe.</string>
-    <string name="listen_address_help">O endereço IP e a porta do formulário \"address:port\" são os endereços onde o baresip escuta as solicitações SIP recebidas. Se o endereço IP for IPv6, deve ser escrito entre colchetes []. O endereço IPv4 0.0.0.0 ou o endereço IPv6 [::] faz com que o baresip escute em todos os endereços disponíveis. Se for deixado em branco (padrão de fábrica), o baresip escuta numa porta arbitrária em todos os endereços disponíveis.</string>
+    <string name="listen_address_help">O endereço IP e a porta do formulário \"address:port\" são os endereços onde o vnt escuta as solicitações SIP recebidas. Se o endereço IP for IPv6, deve ser escrito entre colchetes []. O endereço IPv4 0.0.0.0 ou o endereço IPv6 [::] faz com que o vnt escute em todos os endereços disponíveis. Se for deixado em branco (padrão de fábrica), o vnt escuta numa porta arbitrária em todos os endereços disponíveis.</string>
     <string name="reset_config_help">Se selecionado, ajustes serão redefinidos para os valores de predefinição de fábrica.</string>
     <string name="call_not_secure">Esta chamada NÃO é segura!</string>
     <string name="read_cert_error">Houve uma falha ao ler o ficheiro \'cert.pem\'.</string>
@@ -166,7 +166,7 @@
     <string name="invalid_listen_address">Endereço de Escuta inválido</string>
     <string name="stun_username_help">Nome do utilizador, caso seja necessário pelo servidor STUN/TURN</string>
     <string name="invalid_authentication_password">Palavra-passe de Autenticação Inválida \'%1$s\'</string>
-    <string name="authentication_password_help">Palavra-passe de Autenticação com até 64 caracteres. Se o Nome de Utilizador de Autenticação for informado mas a palavra-passe não, ela será solicitada quando o baresip for iniciado.</string>
+    <string name="authentication_password_help">Palavra-passe de Autenticação com até 64 caracteres. Se o Nome de Utilizador de Autenticação for informado mas a palavra-passe não, ela será solicitada quando o vnt for iniciado.</string>
     <string name="answer_mode">Modo de Atendimento</string>
     <string name="account">Conta</string>
     <string name="edit">Editar</string>
@@ -174,7 +174,7 @@
     <string name="invalid_opus_packet_loss">Percentagem de Perda de Pacotes do Opus inválida</string>
     <string name="dns_servers_help">Lista de endereço de servidores de DNS separados por vírgula. Endereços de servidores DNS são obtidos dinamicamente pelo sistema. Cada endereço DNS é na forma \'ip:porta\' ou \'ip\'. Se a porta é omitida, a predefinição será 53. Se o ip é um endereço IPv6 e também a porta é fornecida, o ip precisa ser escrito dentro de colchetes []. Por exemplo, escutar \'8.8.8.8:53,[2001:4860:4860::8888]:53\' aponta para endereços IPv4 e IPv6 dos servidores de DNS do Google.</string>
     <string name="notice">Aviso</string>
-    <string name="about_title">Sobre o baresip</string>
+    <string name="about_title">Sobre o vnt</string>
     <string name="invalid_stun_password">Palavra-passe inválida \'%1$s\'</string>
     <string name="one_old_message">uma mensagem antiga</string>
     <string name="configuration">Ajustes</string>
@@ -184,7 +184,7 @@
     <string name="backed_up">Os dados as aplicações foram armazenados num backup no ficheiro \'%1$s\'. Nas versões do Android 9 e anteriores, o ficheiro está na pasta Download.</string>
     <string name="quit">Sair</string>
     <string name="unverify">Desverificar</string>
-    <string name="tls_certificate_file_help">Se marcado, o ficheiro que contém o certificado TLS e a chave privada desta instância do baresip foi ou será carregado. Na versão do Android 9, um ficheiro chamado \'cert.pen\' será lido a partir da pasta Download. Por motivos de segurança, apague o ficheiro após o carregamento.</string>
+    <string name="tls_certificate_file_help">Se marcado, o ficheiro que contém o certificado TLS e a chave privada desta instância do vnt foi ou será carregado. Na versão do Android 9, um ficheiro chamado \'cert.pen\' será lido a partir da pasta Download. Por motivos de segurança, apague o ficheiro após o carregamento.</string>
     <string name="invalid_stun_username">Nome do utilizador inválido \'%1$s\'</string>
     <string name="calls_delete_question">Quer apagar %1$s\' %2$s do histórico de chamadas\?</string>
     <string name="transfer_failed">A transferência falhou</string>
@@ -193,11 +193,11 @@
     <string name="allow_video_recv">Aceitar o recebimento de vídeo a partir do \'%1$s\'\?</string>
     <string name="allow_video_send">Aceitar o envio de vídeo para \'%1$s\'\?</string>
     <string name="android_contact_help">Se for marcado, este contato será adicionado nos contatos do Android.</string>
-    <string name="sip_trace_help">Se selecionado em conjunto com Debug, as mensagens Logcat incluem também o pedido SIP e o rastreamento da resposta. A opção não é ativada automaticamente durante a inicialização do baresip.</string>
+    <string name="sip_trace_help">Se selecionado em conjunto com Debug, as mensagens Logcat incluem também o pedido SIP e o rastreamento da resposta. A opção não é ativada automaticamente durante a inicialização do vnt.</string>
     <string name="sip_trace">Rastreio SIP</string>
     <string name="dark_theme_help">Impor o uso do tema escuro no ecrã</string>
     <string name="dark_theme">Tema Escuro</string>
-    <string name="verify_server_help">Se estiver marcado, o baresip verifica os certificados TLS do SIP User Agent e o SIP Proxy Servers quando o transporte TLS for usado.</string>
+    <string name="verify_server_help">Se estiver marcado, o vnt verifica os certificados TLS do SIP User Agent e o SIP Proxy Servers quando o transporte TLS for usado.</string>
     <string name="verify_server">Verifique os certificados do servidor</string>
     <string name="transfer_request_to">Chamada de solicitação de transferência para</string>
     <string name="missed_call_from">Ligação perdida de</string>
@@ -211,7 +211,7 @@
         <p>Versão %1$s</p>
         <h2>Dicas de uso</h2>
         <ul>
-            <li>Verifique se os valores padrão nas configurações do baresip+\ atendem às as suas necessidades
+            <li>Verifique se os valores padrão nas configurações do vnt+\ atendem às as suas necessidades
                 (toque nos títulos dos elementos para obter ajuda).</li>
             <li>Então em Contas, crie uma ou mais contas (novamente clique nos títulos para ajuda).</li>
             <li>O estado de uma conta é mostrado com um ponto colorido: verde (registo
@@ -226,7 +226,7 @@
             <li>Os pares de chamadas e mensagens podem ser adicionados aos contatos por meio de toques longos.</li>
             <li>Os toques longos também podem ser usados para remover chamadas, bate-papos, mensagens e contatos.</li>
             <li>Toque/toque longo no ícone do contato pode ser usado para instalar/remover o avatar da imagem.</li>
-            <li>Consulte a <a href="https://github.com/juha-h/baresip-studio/wiki">Wiki</a> para obter
+            <li>Consulte a <a href="https://github.com/juha-h/vnt-studio/wiki">Wiki</a> para obter
                 mais informações.</li>
         </ul>
         <h2>Problemas conhecidos</h2>
@@ -237,9 +237,9 @@
                 fluxo de vídeo é somente envio.</li>
         </ul>
         <h2>Política de privacidade</h2>
-            A política de privacidade está disponível <a href="https://raw.githubusercontent.com/juha-h/baresip-studio/video/PrivacyPolicy.txt">aqui</a>.
+            A política de privacidade está disponível <a href="https://raw.githubusercontent.com/juha-h/vnt-studio/video/PrivacyPolicy.txt">aqui</a>.
         <h2>Código fonte</h2>
-        O código fonte está disponível no <a href="https://github.com/juha-h/baresip-studio">GitHub</a>,
+        O código fonte está disponível no <a href="https://github.com/juha-h/vnt-studio">GitHub</a>,
         onde os problemas encontrados também podem ser reportados.
         <h2>Licenças</h2>
         <ul>
@@ -252,11 +252,11 @@
             <li><b>AOMedia</b> codec AV1</li>
         </ul>
         ]]></string>
-    <string name="about_title_plus">Sobre o baresip+</string>
+    <string name="about_title_plus">Sobre o vnt+</string>
     <string name="battery_optimizations">Otimizações da bateria</string>
     <string name="missed_calls">Chamadas perdidas</string>
     <string name="missed_calls_count">%1$d chamadas perdidas</string>
-    <string name="battery_optimizations_help">Desative as otimizações da bateria (recomendado) caso queira reduzir a probabilidade do Android restringir o acesso do baresip à rede ou ponha o baresip no modo de espera.</string>
+    <string name="battery_optimizations_help">Desative as otimizações da bateria (recomendado) caso queira reduzir a probabilidade do Android restringir o acesso do vnt à rede ou ponha o vnt no modo de espera.</string>
     <string name="reset_config_alert">Tem certeza de que deseja redefinir as configurações para os valores predefinidos de fábrica\?</string>
     <string name="reset">Redefinir</string>
     <string name="avatar_image">Imagem do perfil</string>
@@ -278,7 +278,7 @@
     <string name="no_android_contacts">Você não pode acessar os contatos do Android sem a permissão \"Contatos\".</string>
     <string name="sip_or_tel_uri">SIP ou tel URI</string>
     <string name="user_domain_or_number">usuário@domínio ou número de telefone</string>
-    <string name="contacts_help">Escolhe se serão usados os contatos do baresip, os contatos do Android ou ambos. Se ambos forem usados e houver um contato com o mesmo nome em ambos os contatos, o contato baresip será escolhido.</string>
+    <string name="contacts_help">Escolhe se serão usados os contatos do vnt, os contatos do Android ou ambos. Se ambos forem usados e houver um contato com o mesmo nome em ambos os contatos, o contato vnt será escolhido.</string>
     <string name="both">Ambos</string>
     <string name="invalid_sip_or_tel_uri">SIP ou tel URI \'%1$s\' inválido</string>
     <string name="blind">Cego</string>
@@ -300,22 +300,22 @@
     <string name="unknown">Desconhecido</string>
     <string name="consent_request">Solicitação de consentimento</string>
     <string name="country_code_help">O código do país E.164 desta conta. Se durante o recebimento da chamada ou mensagem do utilizador a parte URI recebida tiver um número de telefone que não começa com o sinal \'+\' e se a busca de contato falhar, o número será prefixado com este código do país e a busca pelo contato será testada novamente. Se o número de telefone começar com um único dígito \'0\', o dígito \'0\' será removido antes que o número seja prefixado.</string>
-    <string name="account_nickname_help">Apelido (se houver) é utilizado para identificar essa conta dentro da app baresip.</string>
+    <string name="account_nickname_help">Apelido (se houver) é utilizado para identificar essa conta dentro da app vnt.</string>
     <string name="invalid_account_nickname">Apelido inválido da conta \'%1$s\'</string>
     <string name="non_unique_account_nickname">O apelido \'%1$s\' já existe</string>
     <string name="nickname">Apelido</string>
-    <string name="reg_int_help">Informa com que frequência (em segundos) o baresip envia solicitações REGISTER. Os valores válidos são entre 60 a 3600.</string>
-    <string name="contacts_consent">Se os contatos so android forem escolhidos, eles podem ser usados nas chamadas e nas mensagens como referências ao SIP e so tel das URIs. a app baresip não armazena os contatos do Android nem os compartilha com ninguém. Para disponibilizar os contatos android no baresip, o Google exige que aceite o uso como descrito aqui e na <a href="https://raw.githubusercontent.com/juha-h/baresip-studio/master/PrivacyPolicy.txt">Política de Privacidade</a>. </string>
+    <string name="reg_int_help">Informa com que frequência (em segundos) o vnt envia solicitações REGISTER. Os valores válidos são entre 60 a 3600.</string>
+    <string name="contacts_consent">Se os contatos so android forem escolhidos, eles podem ser usados nas chamadas e nas mensagens como referências ao SIP e so tel das URIs. a app vnt não armazena os contatos do Android nem os compartilha com ninguém. Para disponibilizar os contatos android no vnt, o Google exige que aceite o uso como descrito aqui e na <a href="https://raw.githubusercontent.com/juha-h/vnt-studio/master/PrivacyPolicy.txt">Política de Privacidade</a>. </string>
     <string name="permissions_rationale">Justificativa das permissões</string>
-    <string name="audio_permissions">O baresip precisa da permissão \"Microfone\" para realizar chamadas de voz, da permissão \"Aparelhos próximos\" para fazer a detecção do microfone/alto-falante Bluetooth e a permissão \"Notificações\" para postar notificações.</string>
-    <string name="audio_and_video_permissions">O baresip+ precisa da permissão \"Microfone\" para realizar chamadas de voz, da permissão \"Câmara\" para realizar chamadas de vídeo. da permissão \"Aparelhos próximos\" para fazer a detecção do microfone/alto-falante Bluetooth caso queira usar tal aparelho, assim como a permissão \"Notificações\" para postar notificações.</string>
+    <string name="audio_permissions">O vnt precisa da permissão \"Microfone\" para realizar chamadas de voz, da permissão \"Aparelhos próximos\" para fazer a detecção do microfone/alto-falante Bluetooth e a permissão \"Notificações\" para postar notificações.</string>
+    <string name="audio_and_video_permissions">O vnt+ precisa da permissão \"Microfone\" para realizar chamadas de voz, da permissão \"Câmara\" para realizar chamadas de vídeo. da permissão \"Aparelhos próximos\" para fazer a detecção do microfone/alto-falante Bluetooth caso queira usar tal aparelho, assim como a permissão \"Notificações\" para postar notificações.</string>
     <string name="address_family">Família de endereço</string>
-    <string name="address_family_help">Escolhe quais endereços IP o baresip usa. Se IPv4 ou IPv6 for escolhido, o baresip usa apenas endereços de IPv4 ou IPv6. Se nenhum for escolhido, o baresip usará endereços de IPv4 e IPv6.</string>
+    <string name="address_family_help">Escolhe quais endereços IP o vnt usa. Se IPv4 ou IPv6 for escolhido, o vnt usa apenas endereços de IPv4 ou IPv6. Se nenhum for escolhido, o vnt usará endereços de IPv4 e IPv6.</string>
     <string name="rec_in_call">A gravação só pode ser ativada ou desativada quando não estiver numa chamada</string>
     <string name="redirect_mode">Modo de redirecionamento</string>
     <string name="call_auto_rejected">Chamada rejeitada automaticamente de %1$s</string>
     <string name="default_phone_app">Aplicação de telefone padrão</string>
-    <string name="default_phone_app_help">Se for marcado, o baresip será a aplicaöäao de telefone padrão. Não marque caso o seu dispositivo também precise lidar com outras chamadas ou mensagens SIP.</string>
+    <string name="default_phone_app_help">Se for marcado, o vnt será a aplicaöäao de telefone padrão. Não marque caso o seu dispositivo também precise lidar com outras chamadas ou mensagens SIP.</string>
     <string name="favorite">Favorito</string>
     <string name="redirect_notice">Redirecionamento automático para \'%1$s\'\\</string>
     <string name="audio_delay_help">Tempo (em milissegundos) para o áudio esperar de quem chama quando a chamada for estabelecida. Defina um valor mais alto se perde o áudio de quem chama no início da chamada.</string>

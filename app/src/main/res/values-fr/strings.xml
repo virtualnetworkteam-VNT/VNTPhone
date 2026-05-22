@@ -62,10 +62,10 @@
     <string name="display_name_help">Nom (le cas échéant) utilisé dans l\'URI From des demandes sortantes.</string>
     <string name="display_name">Nom d’affichage</string>
     <string name="account">Compte</string>
-    <string name="about_title_plus">À propos de baresip+</string>
-    <string name="about_title">À propos de baresip</string>
+    <string name="about_title_plus">À propos de vnt+</string>
+    <string name="about_title">À propos de vnt</string>
     <string name="invalid_authentication_password">Mot de passe d\'authentification invalide « %1$s »</string>
-    <string name="authentication_password_help">Mot de passe d\'authentification jusqu\'à 64 caractères. Si le nom d\'utilisateur d\'authentification est donné mais que le mot de passe n\'est pas donné, il sera demandé au démarrage de baresip.</string>
+    <string name="authentication_password_help">Mot de passe d\'authentification jusqu\'à 64 caractères. Si le nom d\'utilisateur d\'authentification est donné mais que le mot de passe n\'est pas donné, il sera demandé au démarrage de vnt.</string>
     <string name="authentication_password">Mot de passe d\'authentification</string>
     <string name="invalid_authentication_username">Nom d\'utilisateur d\'authentification invalide « %1$s »</string>
     <string name="call_already_active">Vous avez déjà un appel actif.</string>
@@ -102,7 +102,7 @@
     <string name="audio_modules_title">Modules audio</string>
     <string name="invalid_account_nickname">Surnom de compte invalide « %1$s »</string>
     <string name="non_unique_account_nickname">Le surnom « %1$s » existe déjà</string>
-    <string name="account_nickname_help">Surnom (le cas échéant) utilisé pour identifier ce compte dans l\'application baresip.</string>
+    <string name="account_nickname_help">Surnom (le cas échéant) utilisé pour identifier ce compte dans l\'application vnt.</string>
     <string name="nickname">Surnom</string>
     <string name="outbound_proxies">Proxies sortants</string>
     <string name="outbound_proxies_help">URI SIP d’un ou deux proxies qui doit être utilisé lors de l’envoi des requêtes. Si deux sont données, les demandes REGISTER sont envoyées aux deux et les autres demandes sont envoyées à celui qui répond. Si aucun proxy sortant n’est donné, les demandes sont envoyées en fonction de la recherche d’enregistrement DNS NAPTR/SRV/A de l’hôte URI appelé. Si la partie hôte de l’URI SIP est une adresse IPv6, l’adresse doit être écrite entre crochets []. \nExemples : \n • sip:exemple.com:5061;transport=tls \n • sip:[2001:67c:223:777::10];transport=tcp \n • sip:192.168.43.50:443;transport=wss</string>
@@ -111,7 +111,7 @@
     <string name="invalid_proxy_server_uri">URI de serveur proxy invalide \'%1$s’</string>
     <string name="register_help">Si coché, l’enregistrement est activé et les demandes REGISTER sont envoyées à l’intervalle spécifié par intervalle d’enregistrement.</string>
     <string name="reg_int">Intervalle d’enregistrement</string>
-    <string name="reg_int_help">Indique à quelle fréquence (en secondes) baresip envoie des demandes REGISTER. Les valeurs valides sont comprises entre 60 et 3600.</string>
+    <string name="reg_int_help">Indique à quelle fréquence (en secondes) vnt envoie des demandes REGISTER. Les valeurs valides sont comprises entre 60 et 3600.</string>
     <string name="invalid_reg_int">Intervalle d’enregistrement invalide \'%1$s\'</string>
     <string name="invalid_stun_password">Mot de passe invalide \'%1$s\'</string>
     <string name="rtcp_mux">Multiplexage RTCP</string>

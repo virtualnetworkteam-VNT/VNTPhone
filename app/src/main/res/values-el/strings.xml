@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_title">Σχετικά για το baresip</string>
+    <string name="about_title">Σχετικά για το vnt</string>
     <string name="account">Λογαριασμός</string>
     <string name="display_name">Εμφανιζόμενο όνομα</string>
     <string name="display_name_help">Ονομασία (εάν υπάρχει) που χρησιμοποιείται στο URI εξερχόμενων αιτήσεων.</string>

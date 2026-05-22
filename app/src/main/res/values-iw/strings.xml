@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_title">אודות baresip</string>
-    <string name="about_title_plus">אודות baresip+</string>
-    <string name="about_text"><![CDATA["\n        <h1>סוכן משתמש SIP המבוסס על ספריית <a href=\"https://github.com/baresip/baresip\">baresip</a></h1>\n        <br>\n        <p>Juha Heinanen &lt;jh@tutpro.com&gt;</p>\n        <p>גירסה %1$s</p>\n        <br>\n        <h2>טיפים לשימוש</h2>\n        <ul>\n            <li>בדוק שערכי ברירת מחדל בהגדרות baresip מתאימים לצרכיך\n                (גע בכותרות הפריטים לקבלת עזרה).</li>\n            <li>לאחר מכן, תחת \"חשבונות\", צור חשבון אחד או יותר (שוב, גע בכותרות הפריטים לקבלת עזרה).</li>\n            <li>סטטוס הרישום של חשבון מוצג באמצעות נקודה בצבעים שונים:\n                        ירוק (הרישום הצליח), צהוב (הרישום בתהליך),\n                        אדום (הרישום נכשל), לבן (הרישום לא הופעל).</li>\n            <li>נגיעה בנקודת הסטטוס מובילה ישירות להגדרת החשבון.</li>\n            <li>נגיעה ממושכת על אייקוני סרגל baresip מציגה מידע אודות האייקונים.</li>\n            <li>מחוות החלקה כלפי מטה גורמת לרישום מחדש של החשבון המוצג כרגע.</li>\n            <li>נגיעה ממושכת על החשבון המוצג כרגע מאפשרת או מבטלת את רישום החשבון.</li>\n            <li>מחוות החלקה שמאלה/ימינה מעבירה בין החשבונות.</li>\n            <li>הצד השני בשיחה האחרונה יכול להיבחר מחדש על ידי נגיעה באייקון השיחה כאשר שדה איש הקשר ריק.</li>\n            <li>השותפים בשיחות ובהודעות יכולים להתווסף לאנשי קשר על ידי נגיעה ממושכת.</li>\n            <li>נגיעות ממושכות יכולות לשמש גם כדי להסיר שיחות, צ\'אטים, הודעות ואנשי קשר.</li>\n            <li>נגיעה/נגיעה ממושכת על אייקון אנשי קשר יכולה לשמש להתקנה/הסרה של תמונת אווטאר.</li>\n            <li>נגיעה ממושכת על קודק אודיו יכולה לשמש להפעלה/השעיית הקודק.</li>\n            <li>ראה את ה־<a href=\"https://github.com/juha-h/baresip-studio/wiki\">ויקי</a> למידע נוסף.</li>\n        </ul>\n        <h2>מדיניות פרטיות</h2>\n            <p>מדיניות פרטיות זמינה <a href=\"https://raw.githubusercontent.com/juha-h/baresip-studio/master/PrivacyPolicy.txt\">כאן</a>.</p>\n        <br>\n        <h2>קוד מקור</h2>\n            <p>קוד מקור זמין ב־<a href=\"https://github.com/juha-h/baresip-studio\">GitHub</a>,\n            שם ניתן גם לדווח על תקלות.</p>\n        <br>\n        <h2>תרגומים</h2>\n            <p>תרגומי שפות מנוהלים דרך פרויקט\n                <a href=\"https://hosted.weblate.org/projects/baresip/\">Weblate</a> של baresip.</p>\n        <br>\n        <h2>רשיונות</h2>\n        <ul>\n            <li><b>BSD-3-Clause</b> חוץ מהבאים:</li>\n            <li><b>Apache 2.0</b> AMR codecs and TLS security</li>\n            <li><b>AGPLv4</b> ZRTP media encryption</li>\n            <li><b>GNU LGPL 2.1</b> Codec2 codec</li>\n            <li><b>Free</b> G.722 codec</li>\n            <li><b>GNU GPLv3</b> G.729 codec</li>\n        </ul>\n        "]]></string>
+    <string name="about_title">אודות vnt</string>
+    <string name="about_title_plus">אודות vnt+</string>
+    <string name="about_text"><![CDATA["\n        <h1>סוכן משתמש SIP המבוסס על ספריית <a href=\"https://github.com/vnt/vnt\">vnt</a></h1>\n        <br>\n        <p>Juha Heinanen &lt;jh@tutpro.com&gt;</p>\n        <p>גירסה %1$s</p>\n        <br>\n        <h2>טיפים לשימוש</h2>\n        <ul>\n            <li>בדוק שערכי ברירת מחדל בהגדרות vnt מתאימים לצרכיך\n                (גע בכותרות הפריטים לקבלת עזרה).</li>\n            <li>לאחר מכן, תחת \"חשבונות\", צור חשבון אחד או יותר (שוב, גע בכותרות הפריטים לקבלת עזרה).</li>\n            <li>סטטוס הרישום של חשבון מוצג באמצעות נקודה בצבעים שונים:\n                        ירוק (הרישום הצליח), צהוב (הרישום בתהליך),\n                        אדום (הרישום נכשל), לבן (הרישום לא הופעל).</li>\n            <li>נגיעה בנקודת הסטטוס מובילה ישירות להגדרת החשבון.</li>\n            <li>נגיעה ממושכת על אייקוני סרגל vnt מציגה מידע אודות האייקונים.</li>\n            <li>מחוות החלקה כלפי מטה גורמת לרישום מחדש של החשבון המוצג כרגע.</li>\n            <li>נגיעה ממושכת על החשבון המוצג כרגע מאפשרת או מבטלת את רישום החשבון.</li>\n            <li>מחוות החלקה שמאלה/ימינה מעבירה בין החשבונות.</li>\n            <li>הצד השני בשיחה האחרונה יכול להיבחר מחדש על ידי נגיעה באייקון השיחה כאשר שדה איש הקשר ריק.</li>\n            <li>השותפים בשיחות ובהודעות יכולים להתווסף לאנשי קשר על ידי נגיעה ממושכת.</li>\n            <li>נגיעות ממושכות יכולות לשמש גם כדי להסיר שיחות, צ\'אטים, הודעות ואנשי קשר.</li>\n            <li>נגיעה/נגיעה ממושכת על אייקון אנשי קשר יכולה לשמש להתקנה/הסרה של תמונת אווטאר.</li>\n            <li>נגיעה ממושכת על קודק אודיו יכולה לשמש להפעלה/השעיית הקודק.</li>\n            <li>ראה את ה־<a href=\"https://github.com/juha-h/vnt-studio/wiki\">ויקי</a> למידע נוסף.</li>\n        </ul>\n        <h2>מדיניות פרטיות</h2>\n            <p>מדיניות פרטיות זמינה <a href=\"https://raw.githubusercontent.com/juha-h/vnt-studio/master/PrivacyPolicy.txt\">כאן</a>.</p>\n        <br>\n        <h2>קוד מקור</h2>\n            <p>קוד מקור זמין ב־<a href=\"https://github.com/juha-h/vnt-studio\">GitHub</a>,\n            שם ניתן גם לדווח על תקלות.</p>\n        <br>\n        <h2>תרגומים</h2>\n            <p>תרגומי שפות מנוהלים דרך פרויקט\n                <a href=\"https://hosted.weblate.org/projects/vnt/\">Weblate</a> של vnt.</p>\n        <br>\n        <h2>רשיונות</h2>\n        <ul>\n            <li><b>BSD-3-Clause</b> חוץ מהבאים:</li>\n            <li><b>Apache 2.0</b> AMR codecs and TLS security</li>\n            <li><b>AGPLv4</b> ZRTP media encryption</li>\n            <li><b>GNU LGPL 2.1</b> Codec2 codec</li>\n            <li><b>Free</b> G.722 codec</li>\n            <li><b>GNU GPLv3</b> G.729 codec</li>\n        </ul>\n        "]]></string>
     <string name="about_text_plus"><![CDATA[
         <h1>
-        <h1>סוכן משתמש SIP המבוסס על ספריית <a href="https://github.com/baresip/baresip">baresip</a></h1>
+        <h1>סוכן משתמש SIP המבוסס על ספריית <a href="https://github.com/vnt/vnt">vnt</a></h1>
         <br>
         <p>Juha Heinanen &lt;jh@tutpro.com&gt;</p>
         <p>גירסה %1$s</p>
         <br>
         <h2>טיפים לשימוש</h2>
         <ul>
-            <li>בדוק שערכי ברירת מחדל בהגדרות baresip מתאימים לצרכיך
+            <li>בדוק שערכי ברירת מחדל בהגדרות vnt מתאימים לצרכיך
                 (גע בכותרות הפריטים לקבלת עזרה).</li>
             <li>לאחר מכן, תחת "חשבונות", צור חשבון אחד או יותר (שוב, גע בכותרות הפריטים לקבלת עזרה).</li>
             <li>סטטוס הרישום של חשבון מוצג באמצעות נקודה בצבעים שונים:
                 ירוק (הרישום הצליח), צהוב (הרישום בתהליך),
                 אדום (הרישום נכשל), לבן (הרישום לא הופעל).</li>
             <li>נגיעה בנקודת הסטטוס מובילה ישירות להגדרת החשבון.</li>
-            <li>נגיעה ממושכת על אייקוני סרגל baresip מציגה מידע אודות האייקונים.</li>
+            <li>נגיעה ממושכת על אייקוני סרגל vnt מציגה מידע אודות האייקונים.</li>
             <li>מחוות החלקה כלפי מטה גורמת לרישום מחדש של החשבון המוצג כרגע.</li>
             <li>נגיעה ממושכת על החשבון המוצג כרגע מאפשרת או מבטלת את רישום החשבון.</li>
             <li>מחוות החלקה שמאלה/ימינה מעבירה בין החשבונות.</li>
@@ -28,7 +28,7 @@
             <li>נגיעות ממושכות יכולות לשמש גם כדי להסיר שיחות, צ\'אטים, הודעות ואנשי קשר.</li>
             <li>נגיעה/נגיעה ממושכת על אייקון אנשי קשר יכולה לשמש להתקנה/הסרה של תמונת אווטאר.</li>
             <li>נגיעה ממושכת על קודק אודיו יכולה לשמש להפעלה/השעיית הקודק.</li>
-            <li>ראה את ה־<a href="https://github.com/juha-h/baresip-studio/wiki">ויקי</a>
+            <li>ראה את ה־<a href="https://github.com/juha-h/vnt-studio/wiki">ויקי</a>
                 למידע נוסף.</li>
         </ul>
         <h2>תקלות ידועות</h2>
@@ -36,15 +36,15 @@
             <li>תצוגה עצמית אינה מוצגת כראוי כאשר זרם הווידאו מוגדר כשליחה בלבד.</li>
         </ul>
         <h2>מדיניות פרטיות</h2>
-            <p>מדיניות פרטיות זמינה <a href="https://raw.githubusercontent.com/juha-h/baresip-studio/master/PrivacyPolicy.txt">כאן</a>.</p>
+            <p>מדיניות פרטיות זמינה <a href="https://raw.githubusercontent.com/juha-h/vnt-studio/master/PrivacyPolicy.txt">כאן</a>.</p>
         <br>
         <h2>קוד מקור</h2>
-            <p>קוד מקור זמין ב־<a href="https://github.com/juha-h/baresip-studio">GitHub</a>,
+            <p>קוד מקור זמין ב־<a href="https://github.com/juha-h/vnt-studio">GitHub</a>,
             שם ניתן גם לדווח על תקלות.</p>
         <br>
         <h2>תרגומים</h2>
             <p>תרגומי שפות מנוהלים דרך פרויקט
-                <a href="https://hosted.weblate.org/projects/baresip/">Weblate</a> של baresip.</p>
+                <a href="https://hosted.weblate.org/projects/vnt/">Weblate</a> של vnt.</p>
         <br>
         <h2>רשיונות</h2>
         <ul>
@@ -59,7 +59,7 @@
         </ul>
         ]]></string>
     <string name="account">חשבון</string>
-    <string name="account_nickname_help">כינוי (אם יש) המשמש לזיהוי החשבון הזה בתוך אפליקציית baresip.</string>
+    <string name="account_nickname_help">כינוי (אם יש) המשמש לזיהוי החשבון הזה בתוך אפליקציית vnt.</string>
     <string name="nickname">כינוי</string>
     <string name="invalid_account_nickname">כינוי חשבון לא תקין \'%1$s\'</string>
     <string name="non_unique_account_nickname">כינוי \'%1$s\' כבר קיים</string>
@@ -70,7 +70,7 @@
     <string name="authentication_username_help">שם משתמש לאימות אם נדרש אימות לבקשות SIP. ברירת המחדל היא שם המשתמש של החשבון.</string>
     <string name="invalid_authentication_username">שם משתמש לאימות לא תקני \'%1$s\'</string>
     <string name="authentication_password">סיסמה לאימות</string>
-    <string name="authentication_password_help">סיסמת אימות עד 64 תוים. אם שם המשתמש לאימות נמסר, אך הסיסמה לא נמסרה, היא תתבקש כאשר baresip יתחיל.</string>
+    <string name="authentication_password_help">סיסמת אימות עד 64 תוים. אם שם המשתמש לאימות נמסר, אך הסיסמה לא נמסרה, היא תתבקש כאשר vnt יתחיל.</string>
     <string name="invalid_authentication_password">סיסמת אימות לא תקינה \'%1$s\'</string>
     <string name="outbound_proxies">פרוקסים יוצאים</string>
     <string name="outbound_proxies_help">כתובת SIP URI של פרוקסי אחד או שניים שיש להשתמש בהם בעת שליחת בקשות. אם ניתנים שניים, בקשות REGISTER נשלחות לשניהם, ושאר הבקשות נשלחות לזה שמגיב. אם לא הוגדר פרוקסי יוצא (outbound proxy), הבקשות נשלחות על פי חיפוש רשומות DNS מסוג NAPTR/SRV/A של ה־hostpart ב־URI של היעד. אם ה־hostpart של כתובת ה־SIP URI הוא כתובת IPv6, יש לכתוב את הכתובת בתוך סוגריים מרובעים []. \nדוגמאות: \n • sip:example.com:5061;transport=tls \n • sip:[2001:67c:223:777::10];transport=tcp \n • sip:192.168.43.50:443;transport=wss</string>
@@ -80,7 +80,7 @@
     <string name="register">הרשמה</string>
     <string name="register_help">אם האפשרות מסומנת, הרישום מופעל ובקשות REGISTER נשלחות במרווח הזמן המוגדר ב\'מרווחי זמן רישום\'.</string>
     <string name="reg_int">מרווחי זמן רישום</string>
-    <string name="reg_int_help">מציין כל כמה זמן (בשניות) baresip שולח בקשות REGISTER. הערכים התקינים הם בין 60 ל־3600.</string>
+    <string name="reg_int_help">מציין כל כמה זמן (בשניות) vnt שולח בקשות REGISTER. הערכים התקינים הם בין 60 ל־3600.</string>
     <string name="invalid_reg_int">מרווח זמן רישום לא תקין \'%1$s\'</string>
     <string name="check_origin">בדוק מקור</string>
     <string name="check_origin_help">אם האפשרות מסומנת, בקשות נכנסות מותרות רק מכתובות IP שאליהן נשלחו בקשות רישום.</string>
@@ -96,7 +96,7 @@
     <string name="rel_100">תגובות זמניות אמינות</string>
     <string name="rel_100_help">אם האפשרות מסומנת, תצוין תמיכה בתגובות זמניות אמינות (RFC 3262).</string>
     <string name="no_android_contacts">אינך יכול לגשת לאנשי הקשר של אנדרואיד ללא הרשאת \"אנשי קשר\".</string>
-    <string name="restore_failed">שחזור נתוני היישום נכשל. ודא שהזנת סיסמה נכונה ושהקובץ הגיבוי שייך ליישום זה. בגרסאות אנדרואיד 9, בדוק גם יישומים → baresip → הרשאות → אחסון ושקובץ \'%1$s\' קיים בתיקיית \"הורדות\".</string>
+    <string name="restore_failed">שחזור נתוני היישום נכשל. ודא שהזנת סיסמה נכונה ושהקובץ הגיבוי שייך ליישום זה. בגרסאות אנדרואיד 9, בדוק גם יישומים → vnt → הרשאות → אחסון ושקובץ \'%1$s\' קיים בתיקיית \"הורדות\".</string>
     <string name="restore_unzip_failed">שחזור נתוני היישום נכשל. גרסאות אנדרואיד 14 ומעלה אינן מאפשרות שחזור נתונים שגובו לפני %1$s גרסה %2$s.</string>
     <string name="call_is_secure">השיחה מאובטחת והצד השני מאומת! האם ברצונך לבטל את אימות הצד השני?</string>
     <string name="call_request_query">האם אתה מאשר בקשת שיחה אל \'%1$s\'?</string>
@@ -110,8 +110,8 @@
     <string name="cancel">ביטול</string>
     <string name="contact_action_question">האם אתה רוצה להתקשר או לשלוח הודעה אל \'%1$s\'?</string>
     <string name="favorite">מועדף</string>
-    <string name="config_restart">עליך להפעיל מחדש את baresip כדי להפעיל את ההגדרות החדשות. להפעיל מחדש כעת?</string>
-    <string name="sip_trace_help">אם האפשרות מסומנת וגם מצב Debug מסומן, הודעות ה־Logcat יכללו גם מעקב אחר בקשות ותשובות SIP. האפשרות תבוטל אוטומטית בעת הפעלת baresip.</string>
+    <string name="config_restart">עליך להפעיל מחדש את vnt כדי להפעיל את ההגדרות החדשות. להפעיל מחדש כעת?</string>
+    <string name="sip_trace_help">אם האפשרות מסומנת וגם מצב Debug מסומן, הודעות ה־Logcat יכללו גם מעקב אחר בקשות ותשובות SIP. האפשרות תבוטל אוטומטית בעת הפעלת vnt.</string>
     <string name="reset_config">איפוס לברירות מחדל של היצרן</string>
     <string name="invalid_user_agent">ערך שדה סוכן-משתמש לא תקין</string>
     <string name="video_fps">קצב פריימים לשניה</string>
@@ -159,7 +159,7 @@
     <string name="numeric_keypad">לוח מקשים מספרי</string>"
     <string name="invalid_sip_uri_hostpart">חלק ה־host בכתובת ה־SIP URI אינו חוקי \'%1$s\'</string>
     <string name="default_account">חשבון ברירת מחדל</string>
-    <string name="default_account_help">אם האפשרות מסומנת, חשבון זה נבחר בהפעלת baresip.</string>
+    <string name="default_account_help">אם האפשרות מסומנת, חשבון זה נבחר בהפעלת vnt.</string>
     <string name="accounts">חשבונות</string>
     <string name="new_account">כתובת SIP URI של חשבון חדש</string>
     <string name="accounts_help">כתובת SIP URI של חשבון חדש בתבנית ‎&lt;user&gt;@&lt;domain&gt;[:&lt;port&gt;][;transport=udp|tcp|tls]. אם מצוין &lt;‎port&gt; אך לא מצוין פרוטוקול תעבורה, ברירת המחדל של פרוטוקול התעבורה תהיה UDP. אם לא מצוין &lt;‎&lt;port אך מצוין פרוטוקול תעבורה, ברירת המחדל של &lt;‎&lt;port תהיה 5060 או 5061 ‏(TLS). אם אף אחד מהם לא מצוין ולא הוגדר פרוקסי יוצא, שרת הרישום (registrar) של החשבון (אם קיים) ייקבע אך ורק על סמך מידע ה־DNS של הדומיין.</string>
@@ -216,17 +216,17 @@
     <string name="video_codecs">מקודדי וידאו</string>
     <string name="configuration">הגדרות</string>
     <string name="start_automatically">הפעל אוטומטית</string>
-    <string name="start_automatically_help">אם האפשרות מסומנת, baresip יופעל אוטומטית לאחר אתחול המכשיר או לאחר התקנת גרסה חדשה של baresip. ההפעלה תתבצע רק לאחר ביטול נעילת המכשיר.</string>
+    <string name="start_automatically_help">אם האפשרות מסומנת, vnt יופעל אוטומטית לאחר אתחול המכשיר או לאחר התקנת גרסה חדשה של vnt. ההפעלה תתבצע רק לאחר ביטול נעילת המכשיר.</string>
     <string name="appear_on_top_permission">הפעלה אוטומטית דורשת הרשאת \"הצג מעל יישומים אחרים\".</string>
-    <string name="battery_optimizations_help">השבת מיטובי סוללה אם ברצונך להפחית את הסיכוי שאנדרואיד תגביל את הגישה של baresip לרשת או תעביר את baresip למצב המתנה.</string>
+    <string name="battery_optimizations_help">השבת מיטובי סוללה אם ברצונך להפחית את הסיכוי שאנדרואיד תגביל את הגישה של vnt לרשת או תעביר את vnt למצב המתנה.</string>
     <string name="default_phone_app">יישומון הטלפון המוגדר כברירת מחדל</string>
     <string name="dialer_role_not_available">תפקיד חייגן אינו זמין</string>
-    <string name="default_phone_app_help">אם האפשרות מסומנת, baresip יוגדר כיישומון טלפון ברירת מחדל. אין לסמן אפשרות זו אם המכשיר שלך צריך לטפל גם בשיחות או הודעות שאינן מסוג SIP.</string>
+    <string name="default_phone_app_help">אם האפשרות מסומנת, vnt יוגדר כיישומון טלפון ברירת מחדל. אין לסמן אפשרות זו אם המכשיר שלך צריך לטפל גם בשיחות או הודעות שאינן מסוג SIP.</string>
     <string name="listen_address">כתובת האזנה</string>
-    <string name="listen_address_help">כתובת IP ומספר יציאה בתבנית \'‎address:port\' שבהם baresip מאזין לבקשות SIP נכנסות. אם כתובת ה־IP היא כתובת IPv6, יש לכתוב אותה בתוך סוגריים מרובעים []. כתובת IPv4 ‏0.0.0.0 או כתובת IPv6 ‏[::] מאפשרות ל־baresip להאזין בכל הכתובות הזמינות. אם השדה נשאר ריק (ברירת מחדל של היצרן), baresip יאזין ביציאה שרירותית בכל הכתובות הזמינות.</string>
+    <string name="listen_address_help">כתובת IP ומספר יציאה בתבנית \'‎address:port\' שבהם vnt מאזין לבקשות SIP נכנסות. אם כתובת ה־IP היא כתובת IPv6, יש לכתוב אותה בתוך סוגריים מרובעים []. כתובת IPv4 ‏0.0.0.0 או כתובת IPv6 ‏[::] מאפשרות ל־vnt להאזין בכל הכתובות הזמינות. אם השדה נשאר ריק (ברירת מחדל של היצרן), vnt יאזין ביציאה שרירותית בכל הכתובות הזמינות.</string>
     <string name="invalid_listen_address">כתובת האזנה לא חוקית</string>
     <string name="address_family">משפחת כתובות</string>
-    <string name="address_family_help">בוחר באילו כתובות IP ישתמש baresip. אם נבחר IPv4 או IPv6,‏ baresip ישתמש רק בכתובות מסוג IPv4 או IPv6. אם אף אחת מהאפשרויות לא נבחרה, baresip ישתמש גם בכתובות IPv4 וגם בכתובות IPv6.</string>
+    <string name="address_family_help">בוחר באילו כתובות IP ישתמש vnt. אם נבחר IPv4 או IPv6,‏ vnt ישתמש רק בכתובות מסוג IPv4 או IPv6. אם אף אחת מהאפשרויות לא נבחרה, vnt ישתמש גם בכתובות IPv4 וגם בכתובות IPv6.</string>
     <string name="transport_protocols">פרוטוקולי תעבורה</string>
     <string name="transport_protocols_help">רשימה מופרדת בפסיקים של פרוטוקולי תעבורה נתמכים עבור בקשות/תשובות SIP. אם השדה ריק, ערך ברירת המחדל הוא \'udp,tcp,tls,ws,wss\' הכולל את כל פרוטוקולי התעבורה הנתמכים. יש לציין ברשימה רק את הפרוטוקולים הנחוצים לך. השימוש ב־UDP אינו מומלץ מטעמי אבטחה וסיבות נוספות.</string>
     <string name="invalid_transport_protocols">רשימת פרוטוקולי תעבורה לא חוקית</string>
@@ -234,9 +234,9 @@
     <string name="invalid_dns_servers">שרתי DNS לא חוקיים</string>
     <string name="failed_to_set_dns_servers">נכשלה הגדרת שרתי DNS</string>
     <string name="tls_certificate_file">קובץ תעודת TLS</string>
-    <string name="tls_certificate_file_help">אם האפשרות מסומנת, ייטען או נטען כבר קובץ המכיל תעודת TLS ומפתח פרטי עבור מופע זה של baresip. באנדרואיד גירסה 9, ייטען קובץ בשם \'cert.pem\' מתיקיית ההורדות. מטעמי אבטחה, מומלץ למחוק את הקובץ לאחר טעינתו.</string>
+    <string name="tls_certificate_file_help">אם האפשרות מסומנת, ייטען או נטען כבר קובץ המכיל תעודת TLS ומפתח פרטי עבור מופע זה של vnt. באנדרואיד גירסה 9, ייטען קובץ בשם \'cert.pem\' מתיקיית ההורדות. מטעמי אבטחה, מומלץ למחוק את הקובץ לאחר טעינתו.</string>
     <string name="verify_server">אימות תעודות שרת</string>
-    <string name="verify_server_help">אם האפשרות מסומנת, baresip יאמת את תעודות ה־TLS של סוכן המשתמש (SIP User Agent) ושל שרתי ה־Proxy של SIP כאשר נעשה שימוש בתעבורת TLS.</string>
+    <string name="verify_server_help">אם האפשרות מסומנת, vnt יאמת את תעודות ה־TLS של סוכן המשתמש (SIP User Agent) ושל שרתי ה־Proxy של SIP כאשר נעשה שימוש בתעבורת TLS.</string>
     <string name="tls_ca_file_help">אם האפשרות מסומנת, ייטען או נטען כבר קובץ המכיל תעודות TLS של רשויות אישורי תעודות (Certificate Authorities) שאינן כלולות במערכת ההפעלה אנדרואיד. באנדרואיד גירסה 9, ייטען קובץ בשם \'ca_certs.crt\' מתיקיית ההורדות.</string>
     <string name="no_read_permission">אין הרשאת קריאה מאחסון חיצוני</string>
     <string name="audio_settings">הגדרות שמע</string>
@@ -273,7 +273,7 @@
     <string name="select_ringtone">בחר צלצול</string>
     <string name="user_agent">סוכן משתמש</string>
     <string name="user_agent_help">ערך מותאם אישית לשדה הכותרת סוכן-משתמש בבקשות/תשובות SIP</string>
-    <string name="contacts_help">בוחר האם להשתמש באנשי קשר של baresip, באנשי הקשר של אנדרואיד, או בשניהם. אם נבחר להשתמש בשניהם וקיים איש קשר עם אותו שם בשתי הרשימות, תינתן עדיפות לאיש הקשר של baresip.</string>
+    <string name="contacts_help">בוחר האם להשתמש באנשי קשר של vnt, באנשי הקשר של אנדרואיד, או בשניהם. אם נבחר להשתמש בשניהם וקיים איש קשר עם אותו שם בשתי הרשימות, תינתן עדיפות לאיש הקשר של vnt.</string>
     <string name="both">גם וגם</string>
     <string name="debug">ניפוי שגיאות (Debug)</string>
     <string name="debug_help">אם האפשרות מסומנת, יוצגו הודעות יומן ברמות Debug ו־Info ב־Logcat.</string>
@@ -284,7 +284,7 @@
     <string name="read_cert_error">קריאת קובץ \'cert.pem\' נכשלה.</string>
     <string name="read_ca_certs_error">קריאת קובץ \'ca_certs.crt\' נכשלה.</string>
     <string name="consent_request">בקשת הסכמה</string>
-    <string name="contacts_consent">אם נבחר להשתמש באנשי הקשר של אנדרואיד, ניתן יהיה להשתמש בהם לצורך שיחות והודעות כהפניות לכתובות SIP ו־tel URI. אפליקציית baresip אינה שומרת את אנשי הקשר של אנדרואיד ואינה משתפת אותם עם אף גורם. כדי לאפשר שימוש באנשי הקשר של אנדרואיד בתוך baresip, נדרש אישור מ־Google עבור השימוש בהם כמתואר כאן וב<a href="https://raw.githubusercontent.com/juha-h/baresip-studio/master/PrivacyPolicy.txt">מדיניות הפרטיות</a> של האפליקציה.</string>
+    <string name="contacts_consent">אם נבחר להשתמש באנשי הקשר של אנדרואיד, ניתן יהיה להשתמש בהם לצורך שיחות והודעות כהפניות לכתובות SIP ו־tel URI. אפליקציית vnt אינה שומרת את אנשי הקשר של אנדרואיד ואינה משתפת אותם עם אף גורם. כדי לאפשר שימוש באנשי הקשר של אנדרואיד בתוך vnt, נדרש אישור מ־Google עבור השימוש בהם כמתואר כאן וב<a href="https://raw.githubusercontent.com/juha-h/vnt-studio/master/PrivacyPolicy.txt">מדיניות הפרטיות</a> של האפליקציה.</string>
     <string name="new_contact">איש קשר חדש</string>
     <string name="contact_name">שם</string>
     <string name="sip_or_tel_uri">כתובת SIP או tel URI</string>
@@ -370,11 +370,11 @@
     <string name="peer_not_verified">שיחה זו מאובטחת, אך הצד השני אינו מאומת!</string>
     <string name="unverify">בטל אימות</string>
     <string name="backed_up">נתוני היישום (למעט הקלטות) גובו לקובץ \'%1$s\'. באנדרואיד גירסה 9, הקובץ נמצא בתיקיית ההורדות.</string>
-    <string name="backup_failed">גיבוי נתוני היישום לקובץ \'%1$s\' נכשל. יש לבדוק: יישומים ← baresip ← הרשאות ← אחסון.</string>
+    <string name="backup_failed">גיבוי נתוני היישום לקובץ \'%1$s\' נכשל. יש לבדוק: יישומים ← vnt ← הרשאות ← אחסון.</string>
     <string name="restart_request">בקשת הפעלה מחדש</string>
-    <string name="restored">נתוני היישום שוחזרו. יש להפעיל מחדש את baresip. האם להפעיל מחדש כעת?</string>
+    <string name="restored">נתוני היישום שוחזרו. יש להפעיל מחדש את vnt. האם להפעיל מחדש כעת?</string>
     <string name="no_notifications">לא ניתן להשתמש ביישומון זה ללא הרשאת \"התראות\".</string>
-    <string name="no_calls">baresip זקוק להרשאת \"מיקרופון\" לצורך ביצוע שיחות קוליות.</string>
+    <string name="no_calls">vnt זקוק להרשאת \"מיקרופון\" לצורך ביצוע שיחות קוליות.</string>
     <string name="no_video_calls">הענק הרשאת \"מצלמה\" כדי לבצע או לענות לשיחות וידאו.</string>
     <string name="no_backup">לא ניתן ליצור גיבוי ללא הרשאת \"אחסון\".</string>
     <string name="no_restore">לא ניתן לשחזר גיבוי ללא הרשאת \"אחסון\".</string>
@@ -383,8 +383,8 @@
     <string name="no_aec">אין ביטול הד אקוסטי בחומרה!</string>
     <string name="audio_focus_denied">נדחתה בקשת מיקוד שמע!</string>
     <string name="permissions_rationale">הסבר על הרשאות</string>
-    <string name="audio_permissions">baresip זקוק להרשאת \"מיקרופון\" לצורך ביצוע שיחות קוליות, להרשאת \"מכשירים בקרבת מקום\" לצורך זיהוי מיקרופון/רמקול בלוטות\', להרשאת \"התראות\" לצורך הצגת הודעות מערכת, ובאנדרואיד גירסה 9 גם להרשאת \"אחסון\" לצורך פעולות גיבוי ושחזור.</string>
-    <string name="audio_and_video_permissions">baresip+ זקוק להרשאת \"מיקרופון\" לצורך ביצוע שיחות קוליות, להרשאת \"מצלמה\" לצורך שיחות וידאו, להרשאת \"מכשירים בקרבת מקום\" לצורך זיהוי מיקרופון/רמקול בלוטות\', להרשאת \"התראות\" לצורך הצגת הודעות מערכת, ובאנדרואיד גירסה 9 גם להרשאת \"אחסון\" לצורך פעולות גיבוי ושחזור.</string>
+    <string name="audio_permissions">vnt זקוק להרשאת \"מיקרופון\" לצורך ביצוע שיחות קוליות, להרשאת \"מכשירים בקרבת מקום\" לצורך זיהוי מיקרופון/רמקול בלוטות\', להרשאת \"התראות\" לצורך הצגת הודעות מערכת, ובאנדרואיד גירסה 9 גם להרשאת \"אחסון\" לצורך פעולות גיבוי ושחזור.</string>
+    <string name="audio_and_video_permissions">vnt+ זקוק להרשאת \"מיקרופון\" לצורך ביצוע שיחות קוליות, להרשאת \"מצלמה\" לצורך שיחות וידאו, להרשאת \"מכשירים בקרבת מקום\" לצורך זיהוי מיקרופון/רמקול בלוטות\', להרשאת \"התראות\" לצורך הצגת הודעות מערכת, ובאנדרואיד גירסה 9 גם להרשאת \"אחסון\" לצורך פעולות גיבוי ושחזור.</string>
     <string name="call_recording_title">הקלטת שיחה</string>
     <string name="call_recording_tip">אם האפשרות מופעלת, שיחות נכנסות ויוצאות חדשות יוקלטו. ניתן יהיה להאזין להקלטות בדף פרטי השיחה.</string>
     <string name="microphone_title">מיקרופון</string>

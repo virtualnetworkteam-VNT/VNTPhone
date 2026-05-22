@@ -99,7 +99,7 @@
 \n • sip:192.168.43.50:443;transport=wss</string>
     <string name="outbound_proxies">Utgående proxyservrar</string>
     <string name="invalid_authentication_password">Ogiltigt lösenord för autentisering \'%1$s\'</string>
-    <string name="authentication_password_help">Lösenord för autentisering, upp till 64 tecken. Om användarnamn för autentisering är ifyllt, men lösenordet lämnas tomt kommer baresip fråga om lösenord vid uppstart.</string>
+    <string name="authentication_password_help">Lösenord för autentisering, upp till 64 tecken. Om användarnamn för autentisering är ifyllt, men lösenordet lämnas tomt kommer vnt fråga om lösenord vid uppstart.</string>
     <string name="authentication_password">Lösenord för autentisering</string>
     <string name="authentication_username_help">Användarnamn som används om SIP-förfrågningar kräver autentisering. Förvalt värde är kontots användarnamn.</string>
     <string name="authentication_username">Användarnamn för autentisering</string>
@@ -108,12 +108,12 @@
     <string name="display_name_help">Namn som, om det anges, används i From-URI i utgående SIP-förfrågningar.</string>
     <string name="display_name">Visat namn</string>
     <string name="account">Konto</string>
-    <string name="about_title_plus">Om baresip+</string>
-    <string name="about_title">Om baresip</string>
-    <string name="about_text"><![CDATA[\n<h1>SIP-användaragent baserad på <a href=\"https://github.com/baresip/baresip\">baresip</a>-biblioteket</h1>\n<br>\n<p>Juha Heinanen &lt;jh@tutpro.com></p>\n<p>Version %1$s</p>\n<br>\n<h2>Användningstips</h2>\n<ul>\n<li>Kontrollera att standardvärdena i baresips inställningar uppfyller dina behov\n(tryck på objektets titel för hjälp).</li>\n<li>Skapa sedan ett eller flera konton i Konton (tryck på objektets titel för hjälp).</li>\n<li>Registreringsstatus för ett konto visas med en färgad punkt: grön (registrering\nlyckades), gul (registrering pågår), röd (registrering misslyckades), vit (registrering\nhar inte aktiverats).</li>\n<li>Tryck på statuspunkten för att komma direkt till kontoinställningarna.\n<li>Långt tryck på baresip-ikonerna visar information om ikonerna.\n<li>Svep nedåt för att omregistrera det aktuella kontot.\n<li>Långt tryck på det aktuella kontot aktiverar eller inaktiverar kontots registrering.\n<li>Svep åt vänster/höger för att växla mellan kontona.\n<li>Tidigare samtalspartner kan väljas igen genom att trycka på samtalsikonen när mottagaren är tom.\n<li>Samtal och meddelanden kan läggas till i kontakter genom att trycka länge på dem.\n<li>Långt tryck kan också användas för att ta bort samtal, chattar, meddelanden och kontakter.\n<li>Tryck/långtryck på kontaktikonen kan användas för att installera/ta bort bildavatar.\n<li>Långtryck på en ljudkodek kan användas för att aktivera/inaktivera kodeken.\n<li>Se <a href=\"https://github.com/juha-h/baresip-studio/wiki\">Wiki</a> för mer information.\n</ul>\n<h2>Integritet</h2>\n<p>Integritetspolicyn finns tillgänglig <a href=\"https://raw.githubusercontent.com/juha-h/baresip-studio/master/PrivacyPolicy.txt\">här</a>.</p>\n<br>\n<h2>Källkod</h2>\n<p>Källkoden finns tillgänglig på <a href=\"https://github.com/juha-h/baresip-studio\">GitHub</a>,\ndär även problem kan rapporteras.</p>\n<br>\n<h2>Språköversättningar</h2>\n<p>Språköversättningar hanteras via baresip\n<a href=\"https://hosted.weblate.org/projects/baresip/\">Weblate</a>-projektet.</p>\n<br>\n<h2>Licenser</h2>\n<ul>\n<li><b>BSD-3-klausul</b> med undantag för följande:</li>\n<li><b>Apache 2.0</b> AMR-kodekter och TLS-säkerhet</li>\n<li><b>AGPLv4</b> ZRTP-mediekryptering</li>\n<li><b>GNU LGPL 2.1</b> G.722-, G.726- och Codec2-kodeken</li>\n<li><b>GNU GPLv3</b> G.729-kodeken</li>\n</ul>\n]]></string>
+    <string name="about_title_plus">Om vnt+</string>
+    <string name="about_title">Om vnt</string>
+    <string name="about_text"><![CDATA[\n<h1>SIP-användaragent baserad på <a href=\"https://github.com/vnt/vnt\">vnt</a>-biblioteket</h1>\n<br>\n<p>Juha Heinanen &lt;jh@tutpro.com></p>\n<p>Version %1$s</p>\n<br>\n<h2>Användningstips</h2>\n<ul>\n<li>Kontrollera att standardvärdena i vnts inställningar uppfyller dina behov\n(tryck på objektets titel för hjälp).</li>\n<li>Skapa sedan ett eller flera konton i Konton (tryck på objektets titel för hjälp).</li>\n<li>Registreringsstatus för ett konto visas med en färgad punkt: grön (registrering\nlyckades), gul (registrering pågår), röd (registrering misslyckades), vit (registrering\nhar inte aktiverats).</li>\n<li>Tryck på statuspunkten för att komma direkt till kontoinställningarna.\n<li>Långt tryck på vnt-ikonerna visar information om ikonerna.\n<li>Svep nedåt för att omregistrera det aktuella kontot.\n<li>Långt tryck på det aktuella kontot aktiverar eller inaktiverar kontots registrering.\n<li>Svep åt vänster/höger för att växla mellan kontona.\n<li>Tidigare samtalspartner kan väljas igen genom att trycka på samtalsikonen när mottagaren är tom.\n<li>Samtal och meddelanden kan läggas till i kontakter genom att trycka länge på dem.\n<li>Långt tryck kan också användas för att ta bort samtal, chattar, meddelanden och kontakter.\n<li>Tryck/långtryck på kontaktikonen kan användas för att installera/ta bort bildavatar.\n<li>Långtryck på en ljudkodek kan användas för att aktivera/inaktivera kodeken.\n<li>Se <a href=\"https://github.com/juha-h/vnt-studio/wiki\">Wiki</a> för mer information.\n</ul>\n<h2>Integritet</h2>\n<p>Integritetspolicyn finns tillgänglig <a href=\"https://raw.githubusercontent.com/juha-h/vnt-studio/master/PrivacyPolicy.txt\">här</a>.</p>\n<br>\n<h2>Källkod</h2>\n<p>Källkoden finns tillgänglig på <a href=\"https://github.com/juha-h/vnt-studio\">GitHub</a>,\ndär även problem kan rapporteras.</p>\n<br>\n<h2>Språköversättningar</h2>\n<p>Språköversättningar hanteras via vnt\n<a href=\"https://hosted.weblate.org/projects/vnt/\">Weblate</a>-projektet.</p>\n<br>\n<h2>Licenser</h2>\n<ul>\n<li><b>BSD-3-klausul</b> med undantag för följande:</li>\n<li><b>Apache 2.0</b> AMR-kodekter och TLS-säkerhet</li>\n<li><b>AGPLv4</b> ZRTP-mediekryptering</li>\n<li><b>GNU LGPL 2.1</b> G.722-, G.726- och Codec2-kodeken</li>\n<li><b>GNU GPLv3</b> G.729-kodeken</li>\n</ul>\n]]></string>
     <string name="transfer_request_query">Accepterar du att koppla det här samtalet till \'%1$s\'\?</string>
     <string name="audio_modules_title">Ljudmoduler</string>
-    <string name="start_failed">Baresip kunde inte starta. Det kan bero på ett ogiltigt värde för en inställning. Kontrollera Adress att lyssna på, TLS certifikat-fil och TLS CA-fil. Starta sedan om baresip.</string>
+    <string name="start_failed">Baresip kunde inte starta. Det kan bero på ett ogiltigt värde för en inställning. Kontrollera Adress att lyssna på, TLS certifikat-fil och TLS CA-fil. Starta sedan om vnt.</string>
     <string name="call_already_active">Du har redan ett pågående samtal.</string>
     <string name="rate">Nuvarande hastighet: %1$s (kbits/s)</string>
     <string name="call_info_not_available">Ingen information tillgänglig</string>
@@ -128,7 +128,7 @@
     <string name="cancel">Avbryt</string>
     <string name="contact_already_exists">Kontakten \'%1$s\' finns redan.</string>
     <string name="invalid_contact">Ogiltigt kontaktnamn \'%1$s\'</string>
-    <string name="config_restart">Du måste starta om baresip för att aktivera de nya inställningarna. Starta om nu\?</string>
+    <string name="config_restart">Du måste starta om vnt för att aktivera de nya inställningarna. Starta om nu\?</string>
     <string name="read_ca_certs_error">Kunde inte läsa filen \'ca_certs.crt\'.</string>
     <string name="read_cert_error">Kunde inte läsa filen \'cert.pem\'.</string>
     <string name="reset">Återställ</string>
@@ -146,7 +146,7 @@
     <string name="chat_with">Chatta med %1$s</string>
     <string name="transfer_request_to">Begäran att koppla samtalet till</string>
     <string name="account_allocation_failure">Kunde inte skapa ett nytt konto.</string>
-    <string name="default_account_help">Kryssa i för att välja detta konto när baresip startar.</string>
+    <string name="default_account_help">Kryssa i för att välja detta konto när vnt startar.</string>
     <string name="voicemain_uri_help">SIP-URI för att kontrollera röstmeddelanden. Om fältet lämnas tomt kommer röstmeddelanden (Message Waiting Indications) inte kontrolleras.</string>
     <string name="voicemail_uri">URI till röstbrevlåda</string>
     <string name="auto">Automatiskt</string>
@@ -163,9 +163,9 @@
     <string name="failed_to_set_dns_servers">Kunde inte ställa in DNS-servrar</string>
     <string name="dns_servers_help">Kommaseparerad lista med adresser på DNS-servrar. Om listan lämnas tom hämtas DNS-serveradresser automatiskt från systemet. Varje DNS-adress skrivs på formatet \'ip:port\' eller \'ip\'. Om port utelämnas används port 53. Om ip är en IPv6-adress och en port anges då måste ip skrivas inom hakparenteser []. Som exempel, i listan \'8.8.8.8:53,[2001:4860:4860::8888]:53\' anges IPv4- och IPv6-adresser för Googles publika DNS-servrar.</string>
     <string name="invalid_listen_address">Ogiltig adress att lyssna på</string>
-    <string name="listen_address_help">IP-adress och port i formatet ”adress:port” där baresip lyssnar efter inkommande SIP-förfrågningar. Om IP-adressen är en IPv6-adress måste den skrivas inom hakparenteser []. IPv4-adressen 0.0.0.0 eller IPv6-adressen [::] gör att baresip lyssnar på alla tillgängliga adresser. Om fältet lämnas tomt (fabriksinställning) lyssnar baresip på en godtycklig port på alla tillgängliga adresser.</string>
+    <string name="listen_address_help">IP-adress och port i formatet ”adress:port” där vnt lyssnar efter inkommande SIP-förfrågningar. Om IP-adressen är en IPv6-adress måste den skrivas inom hakparenteser []. IPv4-adressen 0.0.0.0 eller IPv6-adressen [::] gör att vnt lyssnar på alla tillgängliga adresser. Om fältet lämnas tomt (fabriksinställning) lyssnar vnt på en godtycklig port på alla tillgängliga adresser.</string>
     <string name="listen_address">Adress att lyssna på</string>
-    <string name="start_automatically_help">Kryssa i för att starta baresip automatiskt när enheten startat.</string>
+    <string name="start_automatically_help">Kryssa i för att starta vnt automatiskt när enheten startat.</string>
     <string name="delete_chats_alert">Vill du ta bort chatt-historiken för kontot \'%1$s\'\?</string>
     <string name="short_chat_question">Vill du ta bort chatten med \'%1$s\'\?</string>
     <string name="long_chat_question">Vill du ta bort chatten med motparten \'%1$s\' eller lägga till motparten till dina kontakter\?</string>
@@ -178,21 +178,21 @@
     <string name="encrypt_password">Lösenord för kryptering</string>
     <string name="accounts_help">SIP URI för nytt konto i formatet &lt;användare&gt;@&lt;domän&gt;[:&lt;port&gt;][;transport=udp|tcp|tls]. Om &lt;port&gt; anges och transportprotokollet inte anges, är standardtransportprotokollet UDP. Om &lt;port&gt; inte anges och transportprotokollet anges, är standardporten 5060 eller 5061 (TLS). Om varken det ena eller det andra anges och ingen utgående proxy specificeras, bestäms kontots registrator (om sådan finns) enbart utifrån domänens DNS-information.</string>
     <string name="about_text_plus"><![CDATA[
-<h1>SIP-användaragent med videosamtal baserat på <a href="https://github.com/baresip/baresip">baresip</a>-biblioteket</h1>
+<h1>SIP-användaragent med videosamtal baserat på <a href="https://github.com/vnt/vnt">vnt</a>-biblioteket</h1>
 <br>
 <p>Juha Heinanen &lt;jh@tutpro.com></p>
 <p>Version %1$s</p>
 <br>
 <h2>Användningstips</h2>
 <ul>
-<li>Kontrollera att standardvärdena i baresip+\'s Inställningar uppfyller dina behov
+<li>Kontrollera att standardvärdena i vnt+\'s Inställningar uppfyller dina behov
 (tryck på objektets titel för hjälp).</li>
 <li>Skapa sedan ett eller flera konton i Konton (tryck på objektets titel för hjälp).</li>
 <li>Registreringsstatus för ett konto visas med en färgad punkt: grön (registrering
 lyckades), gul (registrering pågår), röd (registrering misslyckades), vit (registrering
 har inte aktiverats).</li>
 <li>Tryck på statuspunkten för att komma direkt till kontoinställningarna.
-<li>Långt tryck på baresip-ikonerna visar information om ikonerna.
+<li>Långt tryck på vnt-ikonerna visar information om ikonerna.
 <li>Svep nedåt för att omregistrera det aktuella kontot.
 <li>Långt tryck på det aktuella kontot aktiverar eller inaktiverar kontots registrering.
 <li>Svep åt vänster/höger för att växla mellan kontona.
@@ -201,7 +201,7 @@ har inte aktiverats).</li>
 <li>Långt tryck kan också användas för att ta bort samtal, chattar, meddelanden och kontakter.
 <li>Tryck/långt tryck på kontaktikonen kan användas för att installera/ta bort bildavatar.
 <li>Långt tryck på en ljud- eller videokodek kan användas för att aktivera/inaktivera kodeken.
-<li>Se <a href="https://github.com/juha-h/baresip-studio/wiki">Wiki</a> för mer
+<li>Se <a href="https://github.com/juha-h/vnt-studio/wiki">Wiki</a> för mer
 information.
 </li>
 </ul>
@@ -214,15 +214,15 @@ läge, roterat 90 grader åt vänster från stående läge.
 </ul>
 <h2>Integritet</h2>
 <p>Integritet finns
-<a href="https://raw.githubusercontent.com/juha-h/baresip-studio/video/PrivacyPolicy.txt">här</a>.</p>
+<a href="https://raw.githubusercontent.com/juha-h/vnt-studio/video/PrivacyPolicy.txt">här</a>.</p>
 <br>
 <h2>Källkod</h2>
-<p>Källkoden finns tillgänglig på <a href="https://github.com/juha-h/baresip-studio">GitHub</a>,
+<p>Källkoden finns tillgänglig på <a href="https://github.com/juha-h/vnt-studio">GitHub</a>,
 där även problem kan rapporteras.</p>
 <br>
 <h2>Språköversättningar</h2>
-<p>Språköversättningar hanteras via baresip
-<a href="https://hosted.weblate.org/projects/baresip/">Weblate</a>-projektet.</p>
+<p>Språköversättningar hanteras via vnt
+<a href="https://hosted.weblate.org/projects/vnt/">Weblate</a>-projektet.</p>
 <br>
 <h2>Licenser</h2>
 <ul>
@@ -246,11 +246,11 @@ där även problem kan rapporteras.</p>
     <string name="default_call_volume_help">Kryssa i för att använda en förvald ljudvolym, 1–10, vid samtal.</string>
     <string name="accept">Acceptera</string>
     <string name="android_contact_help">Kryssa i för att lägga till kontakten till dina Android-kontakter.</string>
-    <string name="sip_trace_help">Kryssa i för att inkludera SIP-meddelanden i Logcat-meddelanden när Felsökning är aktiverat. Funktionen inaktiveras automatiskt när baresip startar.</string>
+    <string name="sip_trace_help">Kryssa i för att inkludera SIP-meddelanden i Logcat-meddelanden när Felsökning är aktiverat. Funktionen inaktiveras automatiskt när vnt startar.</string>
     <string name="debug_help">Kryssa i för att skicka felsöknings- och info-meddelanden till Logcat.</string>
     <string name="tls_ca_file_help">Om denna ruta är markerad har en fil läst in eller kommer att läst in som innehåller TLS-certifikat från certifikatutfärdare som inte ingår i Android OS. I Android version 9 läst in en fil med namnet ”ca_certs.crt” från mappen Hämtningar.</string>
-    <string name="verify_server_help">Om denna ruta är markerad verifierar baresip TLS-certifikat för SIP-användaragenter och SIP-proxyservrar när TLS-transport används.</string>
-    <string name="tls_certificate_file_help">Om denna ruta är markerad har en fil som innehåller TLS-certifikatet och den privata nyckeln för denna baresip-instans läsas in eller kommer att läsas in. I Android version 9 läses in en fil med namnet ”cert.pem” från mappen Download. Av säkerhetsskäl bör du radera filen efter läsin.</string>
+    <string name="verify_server_help">Om denna ruta är markerad verifierar vnt TLS-certifikat för SIP-användaragenter och SIP-proxyservrar när TLS-transport används.</string>
+    <string name="tls_certificate_file_help">Om denna ruta är markerad har en fil som innehåller TLS-certifikatet och den privata nyckeln för denna vnt-instans läsas in eller kommer att läsas in. I Android version 9 läses in en fil med namnet ”cert.pem” från mappen Download. Av säkerhetsskäl bör du radera filen efter läsin.</string>
     <string name="confirmation">Bekräftelse</string>
     <string name="notice">Notis</string>
     <string name="info">Info</string>
@@ -261,10 +261,10 @@ där även problem kan rapporteras.</p>
     <string name="video_size">Storlek på bildrutor</string>
     <string name="no_cameras">Du har ingen videokamera som stöds!</string>
     <string name="no_video_calls">Aktivera behörigheten \"Kamera\" för att ringa eller ta emot samtal.</string>
-    <string name="no_calls">baresip behöver behörigheten \"Mikrofon\" för röstsamtal.</string>
-    <string name="restore_failed">Det gick inte att återställa programdata. Kontrollera att du har angett rätt lösenord och att säkerhetskopian kommer från det här programmet. I Android version 9 ska du också kontrollera Appar → baresip → Behörighet → Lagring och att filen ’%1$s’ finns i mappen Nedladdningar.</string>
-    <string name="restored">Programdata återställd. baresip behöver startas om. Starta om nu\?</string>
-    <string name="backup_failed">Kunde inte säkerhetskopiera programdata till filen \'%1$s\'. Kontrollera Appar → baresip → Behörigheter → Lagring.</string>
+    <string name="no_calls">vnt behöver behörigheten \"Mikrofon\" för röstsamtal.</string>
+    <string name="restore_failed">Det gick inte att återställa programdata. Kontrollera att du har angett rätt lösenord och att säkerhetskopian kommer från det här programmet. I Android version 9 ska du också kontrollera Appar → vnt → Behörighet → Lagring och att filen ’%1$s’ finns i mappen Nedladdningar.</string>
+    <string name="restored">Programdata återställd. vnt behöver startas om. Starta om nu\?</string>
+    <string name="backup_failed">Kunde inte säkerhetskopiera programdata till filen \'%1$s\'. Kontrollera Appar → vnt → Behörigheter → Lagring.</string>
     <string name="backed_up">Applikationsdata (exklusive inspelningar) säkerhetskopierade till filen ’%1$s’. I Android version 9 finns filen i mappen Hämtningar.</string>
     <string name="no_network">Inget nätverk tillgängligt!</string>
     <string name="missed_calls">Missade samtal</string>
@@ -273,7 +273,7 @@ där även problem kan rapporteras.</p>
     <string name="avatar_image">Profilbild</string>
     <string name="no_backup">Det går inte att skapa en backup utan behörigheten \"Lagring\".</string>
     <string name="no_restore">Det går inte att återställa en backup utan behörigheten \"Lagring\".</string>
-    <string name="battery_optimizations_help">Inaktivera batterioptimering (rekommenderas) om du vill minska risken att Android begränsar baresips åtkomst till nätverk eller inaktiverar baresip för att spara ström.</string>
+    <string name="battery_optimizations_help">Inaktivera batterioptimering (rekommenderas) om du vill minska risken att Android begränsar vnts åtkomst till nätverk eller inaktiverar vnt för att spara ström.</string>
     <string name="audio_settings">Ljudinställningar</string>
     <string name="jitter">Jitter: %1$s (ms)</string>
     <string name="call_is_on_hold">Samtalet är parkerat</string>
@@ -291,7 +291,7 @@ där även problem kan rapporteras.</p>
     <string name="user_domain_or_number">användare@domän eller telefonnummer</string>
     <string name="lost">Tappade</string>
     <string name="invalid_sip_or_tel_uri">Ogiltig SIP- eller tel-URI \'%1$s\'</string>
-    <string name="contacts_help">Väljer om baresip-kontakter, Android-kontakter eller båda ska användas. Om båda används och en kontakt med samma namn finns i båda kontakterna, väljs baresip-kontakten.</string>
+    <string name="contacts_help">Väljer om vnt-kontakter, Android-kontakter eller båda ska användas. Om båda används och en kontakt med samma namn finns i båda kontakterna, väljs vnt-kontakten.</string>
     <string name="both">Båda</string>
     <string name="no_android_contacts">Det går inte att komma åt Androids kontakter utan behörigheten \"Kontakter\".</string>
     <string name="country_code">Landsnummer</string>
@@ -303,11 +303,11 @@ där även problem kan rapporteras.</p>
     <string name="diverted_by_dots">Omdirigerad av…</string>
     <string name="attended">Vägledd</string>
     <string name="blind">Blind</string>
-    <string name="contacts_consent">Om Androids kontakter används då kan de användas som SIP- eller tel-URI-referenser för samtal och för att skicka meddelanden. baresip sparar inte Androids kontakter och delar dem inte heller med någon. För att Androids kontakter ska bli tillgängliga i baresip kräver Google att du accepterar användningen som beskrivs här och i appens <a href="https://raw.githubusercontent.com/juha-h/baresip-studio/blob/master/PrivacyPolicy.txt">integritetspolicy</a>. </string>
+    <string name="contacts_consent">Om Androids kontakter används då kan de användas som SIP- eller tel-URI-referenser för samtal och för att skicka meddelanden. vnt sparar inte Androids kontakter och delar dem inte heller med någon. För att Androids kontakter ska bli tillgängliga i vnt kräver Google att du accepterar användningen som beskrivs här och i appens <a href="https://raw.githubusercontent.com/juha-h/vnt-studio/blob/master/PrivacyPolicy.txt">integritetspolicy</a>. </string>
     <string name="rtcp_mux_help">Kryssa i för att låta RTP- och RTCP-paket använda samma port (RFC 5761).</string>
     <string name="rtcp_mux">RTCP-multiplex</string>
     <string name="no_notifications">Det går inte att använda den här appen utan behörigheten \"Aviseringar\".</string>
-    <string name="account_nickname_help">Namn (valfritt) som används för att identifiera det här kontot i baresip-appen.</string>
+    <string name="account_nickname_help">Namn (valfritt) som används för att identifiera det här kontot i vnt-appen.</string>
     <string name="nickname">Smeknamn</string>
     <string name="invalid_account_nickname">Ogiltigt kontonamn \'%1$s\'</string>
     <string name="non_unique_account_nickname">Namnet \'%1$s\' används redan</string>
@@ -315,17 +315,17 @@ där även problem kan rapporteras.</p>
     <string name="reg_int">Registreringsintervall</string>
     <string name="invalid_reg_int">Ogiltigt registreringsintervall \'%1$s\'</string>
     <string name="no_telephony_provider">Kontot \'%1$s\' har ingen telefonileverantör</string>
-    <string name="address_family_help">Väljer vilken eller vilka IP-adress baresip använder. Om IPv4 eller IPv6 väljs använder baresip enbart vald adresstyp. Om ingen adresstyp väljs använder baresip både IPv4- och IPv6-adresser.</string>
+    <string name="address_family_help">Väljer vilken eller vilka IP-adress vnt använder. Om IPv4 eller IPv6 väljs använder vnt enbart vald adresstyp. Om ingen adresstyp väljs använder vnt både IPv4- och IPv6-adresser.</string>
     <string name="address_family">Adresstyp</string>
     <string name="rec_in_call">Inspelning kan bara slås på/av när inget samtal pågår</string>
     <string name="choose_destination_uri">Välj destinations-URI</string>
-    <string name="audio_permissions">baresip behöver behörighet för ”Mikrofon” för röstsamtal, behörighet för ”Närliggande enheter” för Bluetooth-mikrofon-/högtalardetektering, behörighet för ’Meddelanden’ för att publicera meddelanden och i Android 9 behörighet för ”Lagring” för säkerhetskopierings-/återställningsåtgärder.</string>
+    <string name="audio_permissions">vnt behöver behörighet för ”Mikrofon” för röstsamtal, behörighet för ”Närliggande enheter” för Bluetooth-mikrofon-/högtalardetektering, behörighet för ’Meddelanden’ för att publicera meddelanden och i Android 9 behörighet för ”Lagring” för säkerhetskopierings-/återställningsåtgärder.</string>
     <string name="audio_delay">Fördröjt ljud</string>
     <string name="invalid_audio_delay">Ogiltigt värde för fördröjt ljud \'%1$s\'. Giltiga värden är från 100 till 3000.</string>
     <string name="permissions_rationale">Behörigheters motivering</string>
-    <string name="reg_int_help">Avgör hur ofta (i sekunder) baresip skickar REGISTER-förfrågningar. Giltiga värden är från 60 till 3600.</string>
+    <string name="reg_int_help">Avgör hur ofta (i sekunder) vnt skickar REGISTER-förfrågningar. Giltiga värden är från 60 till 3600.</string>
     <string name="audio_delay_help">Tid (i millisekunder) att vänta på ljud från motparten när ett samtal upprättats. Sätt till ett högre värde om du saknar ljud från motparten i början av samtalet.</string>
-    <string name="audio_and_video_permissions">baresip+ behöver behörighet för ”Mikrofon” för röstsamtal, behörighet för ”Kamera” för videosamtal, behörighet för ”Närliggande enheter” för Bluetooth-mikrofon-/högtalardetektering, behörighet för ’Meddelanden’ för att publicera meddelanden och i Android 9 behörighet för ”Lagring” för säkerhetskopierings-/återställningsåtgärder.</string>
+    <string name="audio_and_video_permissions">vnt+ behöver behörighet för ”Mikrofon” för röstsamtal, behörighet för ”Kamera” för videosamtal, behörighet för ”Närliggande enheter” för Bluetooth-mikrofon-/högtalardetektering, behörighet för ’Meddelanden’ för att publicera meddelanden och i Android 9 behörighet för ”Lagring” för säkerhetskopierings-/återställningsåtgärder.</string>
     <string name="call_answered">Samtal besvarat</string>
     <string name="call_answered_elsewhere">Samtal besvarat någon annanstans</string>
     <string name="call_missed">Samtal missat</string>
@@ -344,7 +344,7 @@ där även problem kan rapporteras.</p>
     <string name="appear_on_top_permission">Automatisk start kräver behörighet för att visas överst.</string>
     <string name="default_phone_app">Telefonapp som standard</string>
     <string name="dialer_role_not_available">Uppringningsrollen är inte tillgänglig</string>
-    <string name="default_phone_app_help">Om denna ruta är markerad är baresip standardappen för telefoni. Markera inte denna ruta om din enhet kan behöva hantera andra samtal eller meddelanden än SIP-samtal.</string>
+    <string name="default_phone_app_help">Om denna ruta är markerad är vnt standardappen för telefoni. Markera inte denna ruta om din enhet kan behöva hantera andra samtal eller meddelanden än SIP-samtal.</string>
     <string name="no_read_permission">Ingen läsbehörighet för extern lagring</string>
     <string name="speaker_phone">Högtalartelefon</string>
     <string name="speaker_phone_help">Om denna ruta är markerad aktiveras högtalartelefonen automatiskt när samtalet inleds.</string>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="about_title">Tentang baresip</string>
-    <string name="about_title_plus">Tentang baresip+</string>
+    <string name="about_title">Tentang vnt</string>
+    <string name="about_title_plus">Tentang vnt+</string>
     <string name="about_text"><![CDATA[
         <h1>Agen Pengguna panggilan SIP dan seluler berbasis
-            <a href="https://github.com/baresip/baresip">pustaka baresip</a></h1>
+            <a href="https://github.com/vnt/vnt">pustaka vnt</a></h1>
  <br>
         <p>Juha Heinanen &lt;jh@tutpro.com&gt;</p>
         <p>Versi %1$s</p>
         <br>
         <h2>Petunjuk Penggunaan</h2>
         <ul>
-            <li>Periksa apakah nilai default di Pengaturan baresip sudah sesuai kebutuhan Anda
+            <li>Periksa apakah nilai default di Pengaturan vnt sudah sesuai kebutuhan Anda
             (sentuh judul item untuk bantuan).</li>
-            <li>Jika ingin menggunakan baresip untuk panggilan seluler, aktifkan pengaturan Aplikasi Telepon Default. Pengaturan ini akan
+            <li>Jika ingin menggunakan vnt untuk panggilan seluler, aktifkan pengaturan Aplikasi Telepon Default. Pengaturan ini akan
                  membuat akun Seluler untuk panggilan seluler.</li>
             <li>Kemudian di Akun, buat satu atau lebih akun SIP (sekali lagi sentuh judul item untuk bantuan).</li>
             <li>Status registrasi akun ditampilkan dengan titik berwarna: hijau (registrasi
  berhasil), kuning (registrasi sedang berlangsung), merah (registrasi gagal),
                 putih (registrasi belum diaktifkan).</li>
    <li>Menyentuh titik status akan langsung menuju konfigurasi akun.</li>
-            <li>Sentuhan lama pada ikon bilah baresip menampilkan informasi tentang ikon tersebut.</li>
+            <li>Sentuhan lama pada ikon bilah vnt menampilkan informasi tentang ikon tersebut.</li>
             <li>Gestur geser ke bawah menyebabkan registrasi ulang akun yang sedang ditampilkan.</li>
             <li>Sentuhan lama pada akun yang sedang ditampilkan mengaktifkan atau menonaktifkan registrasi akun.</li>
             <li>Gestur geser kiri/kanan beralih antar akun.</li>
@@ -29,18 +29,18 @@
             <li>Sentuhan lama juga dapat digunakan untuk menghapus panggilan, obrolan, pesan, dan kontak.</li>
             <li>Sentuh/sentuh lama pada ikon kontak dapat digunakan untuk memasang/menghapus avatar gambar.</li>
          <li>Sentuhan lama pada kodek audio dapat digunakan untuk mengaktifkan/menonaktifkan kodek tersebut.</li>
-            <li>Lihat <a href="https://github.com/juha-h/baresip-studio/wiki">Wiki</a> untuk informasi lebih lanjut.</li>
+            <li>Lihat <a href="https://github.com/juha-h/vnt-studio/wiki">Wiki</a> untuk informasi lebih lanjut.</li>
         </ul>
         <h2>Kebijakan Privasi</h2>
-            <p>Kebijakan privasi tersedia <a href="https://raw.githubusercontent.com/juha-h/baresip-studio/master/PrivacyPolicy.txt">di sini</a>.</p>
+            <p>Kebijakan privasi tersedia <a href="https://raw.githubusercontent.com/juha-h/vnt-studio/master/PrivacyPolicy.txt">di sini</a>.</p>
         <br>
         <h2>Kode Sumber</h2>
-            <p>Kode sumber tersedia di <a href="https://github.com/juha-h/baresip-studio">GitHub</a>,
+            <p>Kode sumber tersedia di <a href="https://github.com/juha-h/vnt-studio">GitHub</a>,
         di mana masalah juga dapat dilaporkan.</p>
         <br>
         <h2>Terjemahan Bahasa</h2>
             <p>Terjemahan bahasa dikelola melalui proyek
-                <a href="https://hosted.weblate.org/projects/baresip/">Weblate</a> baresip.</p>
+                <a href="https://hosted.weblate.org/projects/vnt/">Weblate</a> vnt.</p>
         <br>
         <h2>Lisensi</h2>
         <ul>
@@ -53,21 +53,21 @@
         </ul>
         ]]></string>
     <string name="about_text_plus"><![CDATA[
-        <h1>Agen Pengguna SIP dengan panggilan video berbasis <a href="https://github.com/baresip/baresip">pustaka baresip</a></h1>
+        <h1>Agen Pengguna SIP dengan panggilan video berbasis <a href="https://github.com/vnt/vnt">pustaka vnt</a></h1>
         <br>
         <p>Juha Heinanen &lt;jh@tutpro.com&gt;</p>
         <p>Versi %1$s</p>
         <br>
    <h2>Petunjuk Penggunaan</h2>
         <ul>
-            <li>Periksa apakah nilai default di Pengaturan baresip+ sudah sesuai kebutuhan Anda
+            <li>Periksa apakah nilai default di Pengaturan vnt+ sudah sesuai kebutuhan Anda
                 (sentuh judul item untuk bantuan).</li>
         <li>Kemudian di Akun, buat satu atau lebih akun (sekali lagi sentuh judul item untuk bantuan).</li>
             <li>Status registrasi akun ditampilkan dengan titik berwarna: hijau (registrasi
             berhasil), kuning (registrasi sedang berlangsung), merah (registrasi gagal), putih (registrasi
                 belum diaktifkan).</li>
    <li>Menyentuh titik status akan langsung menuju konfigurasi akun.</li>
-            <li>Sentuhan lama pada ikon bilah baresip menampilkan informasi tentang ikon tersebut.</li>
+            <li>Sentuhan lama pada ikon bilah vnt menampilkan informasi tentang ikon tersebut.</li>
             <li>Gestur geser ke bawah menyebabkan registrasi ulang akun yang sedang ditampilkan.</li>
             <li>Sentuhan lama pada akun yang sedang ditampilkan mengaktifkan atau menonaktifkan registrasi akun.</li>
             <li>Gestur geser kiri/kanan beralih antar akun.</li>
@@ -76,7 +76,7 @@
             <li>Sentuhan lama juga dapat digunakan untuk menghapus panggilan, obrolan, pesan, dan kontak.</li>
             <li>Sentuh/sentuh lama pada ikon kontak dapat digunakan untuk memasang/menghapus avatar gambar.</li>
          <li>Sentuhan lama pada kodek audio atau video dapat digunakan untuk mengaktifkan/menonaktifkan kodek tersebut.</li>
-            <li>Lihat <a href="https://github.com/juha-h/baresip-studio/wiki">Wiki</a> untuk
+            <li>Lihat <a href="https://github.com/juha-h/vnt-studio/wiki">Wiki</a> untuk
                 informasi lebih lanjut.</li>
         </ul>
    <h2>Masalah yang Diketahui</h2>
@@ -85,15 +85,15 @@
         </ul>
         <h2>Kebijakan Privasi</h2>
         <p>Kebijakan privasi tersedia
-            <a href="https://raw.githubusercontent.com/juha-h/baresip-studio/video/PrivacyPolicy.txt">di sini</a>.</p>
+            <a href="https://raw.githubusercontent.com/juha-h/vnt-studio/video/PrivacyPolicy.txt">di sini</a>.</p>
         <br>
         <h2>Kode Sumber</h2>
-        <p>Kode sumber tersedia di <a href="https://github.com/juha-h/baresip-studio">GitHub</a>,
+        <p>Kode sumber tersedia di <a href="https://github.com/juha-h/vnt-studio">GitHub</a>,
         di mana masalah juga dapat dilaporkan.</p>
         <br>
         <h2>Terjemahan Bahasa</h2>
         <p>Terjemahan bahasa dikelola melalui proyek
-            <a href="https://hosted.weblate.org/projects/baresip/">Weblate</a> baresip.</p>
+            <a href="https://hosted.weblate.org/projects/vnt/">Weblate</a> vnt.</p>
         <br>
         <h2>Lisensi</h2>
         <ul>
@@ -109,7 +109,7 @@
         ]]></string>
     <string name="account">Akun</string>
     <string name="not_available">Tidak tersedia</string>
-    <string name="account_nickname_help">Nama panggilan (jika ada) yang digunakan untuk mengidentifikasi akun ini di dalam aplikasi baresip.</string>
+    <string name="account_nickname_help">Nama panggilan (jika ada) yang digunakan untuk mengidentifikasi akun ini di dalam aplikasi vnt.</string>
     <string name="nickname">Nama Panggilan</string>
     <string name="invalid_account_nickname">Nama Panggilan Akun Tidak Valid \'%1$s\'</string>
     <string name="non_unique_account_nickname">Nama panggilan \'%1$s\' sudah ada</string>
@@ -120,7 +120,7 @@
     <string name="authentication_username_help">Nama pengguna autentikasi jika autentikasi permintaan SIP diperlukan. Nilai default adalah nama pengguna akun.</string>
     <string name="invalid_authentication_username">Nama Pengguna Autentikasi Tidak Valid \'%1$s\'</string>
     <string name="authentication_password">Kata Sandi Autentikasi</string>
-    <string name="authentication_password_help">Kata Sandi Autentikasi hingga 64 karakter. Jika Nama Pengguna Autentikasi diberikan, tetapi Kata Sandi tidak diberikan, kata sandi akan diminta saat baresip dijalankan.</string>
+    <string name="authentication_password_help">Kata Sandi Autentikasi hingga 64 karakter. Jika Nama Pengguna Autentikasi diberikan, tetapi Kata Sandi tidak diberikan, kata sandi akan diminta saat vnt dijalankan.</string>
     <string name="invalid_authentication_password">Kata Sandi Autentikasi Tidak Valid \'%1$s\'</string>
     <string name="outbound_proxies">Proksi Keluar</string>
     <string name="outbound_proxies_help">"URI SIP dari satu atau dua proksi yang harus digunakan saat mengirim permintaan. Jika dua proksi diberikan, permintaan REGISTER dikirim ke keduanya dan permintaan lainnya dikirim ke satu yang merespons. Jika tidak ada proksi keluar yang diberikan, permintaan dikirim berdasarkan pencarian rekaman DNS NAPTR/SRV/A dari bagian host URI callee. Jika bagian host URI SIP adalah alamat IPv6, alamat tersebut harus ditulis di dalam tanda kurung siku []. \nContoh: \n -  sip:example.com:5061;transport=tls \n -  sip:[2001:67c:223:777::10];transport=tcp \n -  sip:192.168.43.50:443;transport=wss"</string>
@@ -130,7 +130,7 @@
     <string name="register">Daftar</string>
     <string name="register_help">Jika dicentang, registrasi diaktifkan dan permintaan REGISTER dikirim pada interval yang ditentukan oleh Interval Registrasi.</string>
     <string name="reg_int">Interval Registrasi</string>
-    <string name="reg_int_help">Menentukan seberapa sering (dalam detik) baresip mengirim permintaan REGISTER. Nilai yang valid adalah dari 60 hingga 3600.</string>
+    <string name="reg_int_help">Menentukan seberapa sering (dalam detik) vnt mengirim permintaan REGISTER. Nilai yang valid adalah dari 60 hingga 3600.</string>
     <string name="invalid_reg_int">Interval Registrasi Tidak Valid \'%1$s\'</string>
     <string name="check_origin">Periksa Asal</string>
     <string name="check_origin_help">Jika dicentang, permintaan masuk hanya diizinkan dari alamat IP tempat permintaan register dikirim.</string>
@@ -176,7 +176,7 @@
     <string name="numeric_keypad_help">Jika dicentang, papan tombol numerik ditampilkan saat kolom \"Panggil ke …\" difokuskan.</string>"
     <string name="invalid_sip_uri_hostpart">Bagian host URI SIP Tidak Valid \'%1$s\'</string>
     <string name="default_account">Akun Default</string>
-    <string name="default_account_help">Jika dicentang, akun ini dipilih saat baresip dijalankan.</string>
+    <string name="default_account_help">Jika dicentang, akun ini dipilih saat vnt dijalankan.</string>
     <string name="custom_parameters">Parameter Kustom</string>
     <string name="custom_parameters_help">Daftar parameter akun kustom yang dipisahkan titik koma</string>
     <string name="accounts">Akun</string>
@@ -242,22 +242,22 @@
     <string name="video_codecs">Kodek Video</string>
     <string name="configuration">Pengaturan</string>
     <string name="start_automatically">Mulai Otomatis</string>
-    <string name="start_automatically_help">Jika dicentang, baresip dimulai secara otomatis setelah perangkat dinyalakan atau setelah versi baru baresip diinstal. Mulai ditunda hingga perangkat dibuka kuncinya.</string>
+    <string name="start_automatically_help">Jika dicentang, vnt dimulai secara otomatis setelah perangkat dinyalakan atau setelah versi baru vnt diinstal. Mulai ditunda hingga perangkat dibuka kuncinya.</string>
     <string name="appear_on_top_permission">Mulai otomatis memerlukan izin Tampil di Atas.</string>
     <string name="battery_optimizations">Optimasi Baterai</string>
-    <string name="battery_optimizations_help">Nonaktifkan optimasi baterai jika Anda ingin mengurangi kemungkinan Android membatasi akses baresip ke jaringan atau memasukkan baresip ke status siaga.</string>
+    <string name="battery_optimizations_help">Nonaktifkan optimasi baterai jika Anda ingin mengurangi kemungkinan Android membatasi akses vnt ke jaringan atau memasukkan vnt ke status siaga.</string>
     <string name="default_phone_app">Aplikasi Telepon Default</string>
     <string name="dialer_role_not_available">Peran aplikasi telepon default tidak tersedia</string>
-    <string name="default_phone_app_help">Jika dicentang, baresip adalah aplikasi telepon default.</string>
+    <string name="default_phone_app_help">Jika dicentang, vnt adalah aplikasi telepon default.</string>
     <string name="default_messaging_app">Aplikasi Pesan Default</string>
-    <string name="default_messaging_app_help">Jika dicentang, baresip adalah aplikasi pesan default untuk SMS/MMS.</string>
+    <string name="default_messaging_app_help">Jika dicentang, vnt adalah aplikasi pesan default untuk SMS/MMS.</string>
     <string name="messaging_role_not_available">Peran aplikasi pesan default tidak tersedia</string>
     <string name="enable_default_messaging">Harap aktifkan Aplikasi Pesan Default di Pengaturan</string>
     <string name="listen_address">Alamat Dengar</string>
-    <string name="listen_address_help">Alamat IP dan port dalam bentuk \'alamat:port\' tempat baresip mendengarkan permintaan SIP masuk. Jika alamat IP adalah alamat IPv6, alamat tersebut harus ditulis di dalam tanda kurung siku []. Alamat IPv4 0.0.0.0 atau alamat IPv6 [::] membuat baresip mendengarkan di semua alamat yang tersedia. Jika dikosongkan (default pabrik), baresip mendengarkan pada port sembarang di semua alamat yang tersedia.</string>
+    <string name="listen_address_help">Alamat IP dan port dalam bentuk \'alamat:port\' tempat vnt mendengarkan permintaan SIP masuk. Jika alamat IP adalah alamat IPv6, alamat tersebut harus ditulis di dalam tanda kurung siku []. Alamat IPv4 0.0.0.0 atau alamat IPv6 [::] membuat vnt mendengarkan di semua alamat yang tersedia. Jika dikosongkan (default pabrik), vnt mendengarkan pada port sembarang di semua alamat yang tersedia.</string>
     <string name="invalid_listen_address">Alamat Dengar Tidak Valid</string>
     <string name="address_family">Keluarga Alamat</string>
-    <string name="address_family_help">Memilih alamat IP mana yang digunakan oleh baresip. Jika IPv4 atau IPv6 dipilih, baresip hanya menggunakan alamat IPv4 atau IPv6. Jika tidak ada yang dipilih, baresip menggunakan alamat IPv4 dan IPv6.</string>
+    <string name="address_family_help">Memilih alamat IP mana yang digunakan oleh vnt. Jika IPv4 atau IPv6 dipilih, vnt hanya menggunakan alamat IPv4 atau IPv6. Jika tidak ada yang dipilih, vnt menggunakan alamat IPv4 dan IPv6.</string>
     <string name="transport_protocols">Protokol Transport</string>
     <string name="transport_protocols_help">Daftar protokol transport permintaan/respons SIP yang didukung, dipisahkan koma. Jika dikosongkan, nilai default adalah \'udp,tcp,tls,ws,wss\' yang mencakup semua protokol transport yang didukung. Cantumkan hanya yang Anda butuhkan. Penggunaan UDP tidak direkomendasikan karena alasan keamanan dan lainnya.</string>
     <string name="invalid_transport_protocols">Daftar Protokol Transport tidak valid</string>
@@ -266,9 +266,9 @@
     <string name="invalid_dns_servers">Server DNS Tidak Valid</string>
     <string name="failed_to_set_dns_servers">Gagal mengatur server DNS</string>
     <string name="tls_certificate_file">Berkas Sertifikat TLS</string>
-    <string name="tls_certificate_file_help">Jika dicentang, berkas yang berisi sertifikat TLS dan kunci privat instans baresip ini telah atau akan dimuat. Pada Android versi 9, berkas bernama \'cert.pem\' dimuat dari folder Unduhan. Demi keamanan, hapus berkas tersebut setelah dimuat.</string>
+    <string name="tls_certificate_file_help">Jika dicentang, berkas yang berisi sertifikat TLS dan kunci privat instans vnt ini telah atau akan dimuat. Pada Android versi 9, berkas bernama \'cert.pem\' dimuat dari folder Unduhan. Demi keamanan, hapus berkas tersebut setelah dimuat.</string>
     <string name="verify_server">Verifikasi Sertifikat Server</string>
-    <string name="verify_server_help">Jika dicentang, baresip memverifikasi sertifikat TLS dari Agen Pengguna SIP dan Server Proksi SIP saat transport TLS digunakan.</string>
+    <string name="verify_server_help">Jika dicentang, vnt memverifikasi sertifikat TLS dari Agen Pengguna SIP dan Server Proksi SIP saat transport TLS digunakan.</string>
     <string name="tls_ca_file">Berkas CA TLS</string>
     <string name="tls_ca_file_help">Jika dicentang, sebuah berkas telah atau akan dimuat yang berisi sertifikat TLS dari Otoritas Sertifikat yang tidak termasuk dalam OS Android. Pada Android versi 9, berkas bernama \'ca_certs.crt\' dimuat dari folder Unduhan.</string>
     <string name="no_read_permission">Tidak ada izin baca Penyimpanan Eksternal</string>
@@ -314,21 +314,21 @@
     <string name="user_agent">Agen Pengguna</string>
     <string name="user_agent_help">Nilai bidang header User-Agent permintaan/respons SIP kustom</string>
     <string name="invalid_user_agent">Nilai bidang header User-Agent tidak valid</string>
-    <string name="contacts_help">Memilih apakah kontak baresip, kontak Android, atau keduanya digunakan. Jika keduanya digunakan dan terdapat kontak dengan nama yang sama di kedua kontak, kontak baresip akan dipilih.</string>
+    <string name="contacts_help">Memilih apakah kontak vnt, kontak Android, atau keduanya digunakan. Jika keduanya digunakan dan terdapat kontak dengan nama yang sama di kedua kontak, kontak vnt akan dipilih.</string>
     <string name="both">Keduanya</string>
     <string name="debug">Debug</string>
     <string name="debug_help">Jika dicentang, menyediakan pesan log tingkat debug dan info ke Logcat.</string>
     <string name="sip_trace">Lacak SIP</string>
-    <string name="sip_trace_help">Jika dicentang dan jika Debug dicentang, pesan Logcat juga menyertakan lacak permintaan dan respons SIP. Dinonaktifkan secara otomatis saat baresip dimulai.</string>
+    <string name="sip_trace_help">Jika dicentang dan jika Debug dicentang, pesan Logcat juga menyertakan lacak permintaan dan respons SIP. Dinonaktifkan secara otomatis saat vnt dimulai.</string>
     <string name="reset_config">Setel Ulang ke Default Pabrik</string>
     <string name="reset_config_help">Jika dicentang, pengaturan disetel ulang ke nilai default pabrik.</string>
     <string name="reset_config_alert">Apakah Anda yakin ingin menyetel ulang pengaturan ke nilai default pabrik?</string>
     <string name="reset">Setel Ulang</string>
     <string name="read_cert_error">Gagal membaca berkas \'cert.pem\'.</string>
     <string name="read_ca_certs_error">Gagal membaca berkas \'ca_certs.crt\'.</string>
-    <string name="config_restart">Anda perlu memulai ulang baresip untuk mengaktifkan pengaturan baru. Mulai ulang sekarang?</string>
+    <string name="config_restart">Anda perlu memulai ulang vnt untuk mengaktifkan pengaturan baru. Mulai ulang sekarang?</string>
     <string name="consent_request">Permintaan Persetujuan</string>
-    <string name="contacts_consent">Jika kontak Android dipilih, kontak tersebut dapat digunakan dalam panggilan dan pesan sebagai referensi ke URI SIP dan tel. Aplikasi baresip tidak menyimpan kontak Android maupun membagikannya kepada siapa pun. Untuk membuat kontak Android tersedia di baresip, Google mengharuskan Anda menyetujui penggunaannya sebagaimana dijelaskan di sini dan dalam <a href="https://raw.githubusercontent.com/juha-h/baresip-studio/master/PrivacyPolicy.txt">Kebijakan Privasi</a> aplikasi.</string>
+    <string name="contacts_consent">Jika kontak Android dipilih, kontak tersebut dapat digunakan dalam panggilan dan pesan sebagai referensi ke URI SIP dan tel. Aplikasi vnt tidak menyimpan kontak Android maupun membagikannya kepada siapa pun. Untuk membuat kontak Android tersedia di vnt, Google mengharuskan Anda menyetujui penggunaannya sebagaimana dijelaskan di sini dan dalam <a href="https://raw.githubusercontent.com/juha-h/vnt-studio/master/PrivacyPolicy.txt">Kebijakan Privasi</a> aplikasi.</string>
     <string name="new_contact">Kontak Baru</string>
     <string name="contact_name">Nama</string>
     <string name="email">Email</string>
@@ -419,7 +419,7 @@
     <string name="no_messages">Anda tidak memiliki pesan</string>
     <string name="listen">Dengarkan</string>
     <string name="call_already_active">Anda sudah memiliki panggilan aktif.</string>
-    <string name="start_failed">Baresip gagal dimulai. Hal ini mungkin disebabkan oleh nilai Pengaturan yang tidak valid. Periksa Alamat Dengar, Berkas Sertifikat TLS, dan Berkas CA TLS. Kemudian mulai ulang baresip.</string>
+    <string name="start_failed">Baresip gagal dimulai. Hal ini mungkin disebabkan oleh nilai Pengaturan yang tidak valid. Periksa Alamat Dengar, Berkas Sertifikat TLS, dan Berkas CA TLS. Kemudian mulai ulang vnt.</string>
     <string name="registering_failed">Registrasi %1$s gagal.</string>
     <string name="verify">Permintaan Verifikasi</string>
     <string name="verify_sas">Apakah Anda ingin memverifikasi SAS &lt;%1$s&gt;?</string>
@@ -437,13 +437,13 @@
     <string name="call_is_secure">Panggilan ini AMAN dan rekan TELAH DIVERIFIKASI! Apakah Anda ingin membatalkan verifikasi rekan?</string>
     <string name="unverify">Batalkan Verifikasi</string>
     <string name="backed_up">Data aplikasi (tidak termasuk rekaman) dicadangkan ke berkas \'%1$s\'. Pada Android versi 9, berkas tersebut ada di folder Unduhan.</string>
-    <string name="backup_failed">Gagal mencadangkan data aplikasi ke berkas \'%1$s\'. Periksa Aplikasi → baresip → Izin → Penyimpanan.</string>
+    <string name="backup_failed">Gagal mencadangkan data aplikasi ke berkas \'%1$s\'. Periksa Aplikasi → vnt → Izin → Penyimpanan.</string>
     <string name="restart_request">Permintaan Mulai Ulang</string>
-    <string name="restored">Data aplikasi dipulihkan. baresip perlu dimulai ulang. Mulai ulang sekarang?</string>
-    <string name="restore_failed">Gagal memulihkan data aplikasi. Pastikan Anda memasukkan kata sandi yang benar dan berkas cadangan berasal dari aplikasi ini. Pada Android versi 9, periksa juga Aplikasi → baresip → Izin → Penyimpanan dan pastikan berkas \'%1$s\' ada di folder Unduhan.</string>
+    <string name="restored">Data aplikasi dipulihkan. vnt perlu dimulai ulang. Mulai ulang sekarang?</string>
+    <string name="restore_failed">Gagal memulihkan data aplikasi. Pastikan Anda memasukkan kata sandi yang benar dan berkas cadangan berasal dari aplikasi ini. Pada Android versi 9, periksa juga Aplikasi → vnt → Izin → Penyimpanan dan pastikan berkas \'%1$s\' ada di folder Unduhan.</string>
     <string name="restore_unzip_failed">Gagal memulihkan data aplikasi. Android versi 14 ke atas tidak mengizinkan pemulihan data yang dicadangkan sebelum %1$s versi %2$s.</string>
     <string name="no_notifications">Anda tidak dapat menggunakan aplikasi ini tanpa izin \"Notifikasi\".</string>
-    <string name="no_calls">baresip memerlukan izin \"Mikrofon\" untuk panggilan suara.</string>
+    <string name="no_calls">vnt memerlukan izin \"Mikrofon\" untuk panggilan suara.</string>
     <string name="no_video_calls">Berikan izin \"Kamera\" untuk melakukan atau menjawab panggilan video.</string>
     <string name="no_backup">Anda tidak dapat membuat cadangan tanpa izin \"Penyimpanan\".</string>
     <string name="no_restore">Anda tidak dapat memulihkan cadangan tanpa izin \"Penyimpanan\".</string>
@@ -453,8 +453,8 @@
     <string name="no_aec">Tidak ada Pembatalan Gema Akustik perangkat keras!</string>
     <string name="audio_focus_denied">Fokus audio ditolak!</string>
     <string name="permissions_rationale">Alasan izin</string>
-    <string name="audio_permissions">baresip memerlukan izin \"Mikrofon\" untuk panggilan suara, izin \"Perangkat terdekat\" untuk deteksi mikrofon/speaker Bluetooth, izin \"Notifikasi\" untuk menampilkan notifikasi, dan pada Android 9 izin \"Penyimpanan\" untuk operasi Cadangan/Pemulihan.</string>
-    <string name="audio_and_video_permissions">baresip+ memerlukan izin \"Mikrofon\" untuk panggilan suara, izin \"Kamera\" untuk panggilan video, izin \"Perangkat terdekat\" untuk deteksi mikrofon/speaker Bluetooth, izin \"Notifikasi\" untuk menampilkan notifikasi, dan pada Android 9 izin \"Penyimpanan\" untuk operasi Cadangan/Pemulihan.</string>
+    <string name="audio_permissions">vnt memerlukan izin \"Mikrofon\" untuk panggilan suara, izin \"Perangkat terdekat\" untuk deteksi mikrofon/speaker Bluetooth, izin \"Notifikasi\" untuk menampilkan notifikasi, dan pada Android 9 izin \"Penyimpanan\" untuk operasi Cadangan/Pemulihan.</string>
+    <string name="audio_and_video_permissions">vnt+ memerlukan izin \"Mikrofon\" untuk panggilan suara, izin \"Kamera\" untuk panggilan video, izin \"Perangkat terdekat\" untuk deteksi mikrofon/speaker Bluetooth, izin \"Notifikasi\" untuk menampilkan notifikasi, dan pada Android 9 izin \"Penyimpanan\" untuk operasi Cadangan/Pemulihan.</string>
     <string name="call_recording_title">Rekaman Panggilan</string>
     <string name="call_recording_tip">Jika diaktifkan, panggilan masuk dan keluar baru akan direkam. Rekaman dapat diputar di halaman Detail Panggilan.</string>
     <string name="microphone_title">Mikrofon</string>

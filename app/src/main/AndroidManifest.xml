@@ -199,12 +199,16 @@
             android:exported="true"
             tools:ignore="ExportedReceiver" >
             <intent-filter>
-                <action android:name="com.tutpro.baresip.REGISTER" />
-                <action android:name="com.tutpro.baresip.UNREGISTER" />
-                <action android:name="com.tutpro.baresip.QUIT" />
+                <action android:name="com.vnt.phone.REGISTER" />
+                <action android:name="com.vnt.phone.UNREGISTER" />
+                <action android:name="com.vnt.phone.QUIT" />
             </intent-filter>
         </receiver>
 
+        <activity android:name=".VNTLoginActivity" android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            
+        </activity>
     </application>
 
 </manifest>

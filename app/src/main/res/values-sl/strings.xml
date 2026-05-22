@@ -5,6 +5,6 @@
     <string name="display_name_help">Ime (če je) uporabljen v polju From URI za odhodne akcije.</string>
     <string name="display_name">Prikazano ime</string>
     <string name="account">Račun</string>
-    <string name="about_title_plus">O baresip+</string>
-    <string name="about_title">O baresip-u</string>
+    <string name="about_title_plus">O vnt+</string>
+    <string name="about_title">O vnt-u</string>
 </resources>
